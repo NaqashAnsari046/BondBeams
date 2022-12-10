@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#MainCerti{
+    background-color: white;
+    padding: 1rem;
+}
+
+#setMainCerit{
+    padding: 1rem 1rem;
+    text-transform: capitalize;
+    margin-top: 1rem;
+}
+#setMainCerit h1{
+    font-size: 0.9rem;
+}
+#setMainCerit span{
+    font-weight: 700;
+}
+#setinnerCerti{
+    display: flex;
+    justify-content: space-between;
+}
+#setinnerCerti button{
+    background-color: black;
+    padding: 0.3rem 2rem;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 0.8rem !important;
+    font-weight: 600;
+}
+#setMainCerit h6{
+    color: gainsboro;
+    font-size: 0.9rem !important;
+    margin-top: -1rem !important;
+}
+
+@media(max-width:540px){
+    #setinnerCerti button{
+        display: none;
+    }
+    #setMainCerit h6{
+        margin-top: -0.2rem !important;
+    }
+}

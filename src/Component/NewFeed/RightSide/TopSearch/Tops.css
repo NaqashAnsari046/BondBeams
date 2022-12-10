@@ -1,0 +1,71 @@
+#setRightFeed{
+    display:flex;
+    text-transform: capitalize;
+    background-color: white;
+  }
+  
+
+  #setRightFeed img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 2rem;
+  }
+  #setFedtext h2{
+    font-size: 0.8rem;
+    padding: 0.6rem;
+  }
+  #setFedtext h4{
+    font-size: 0.6rem;
+    margin-top: -1.6rem;
+    padding: 0.6rem;
+  }
+/* top search */
+  #FeedNewTopS h1{
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+
+  #FeedNewTopS h2{
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  
+  #FeedNewTopS h4{
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+
+
+  @media(min-width:1024px) and (max-width:1600px){
+    #FeedNewTopS h1{
+      font-size: 0.8rem;
+      font-weight: 700;
+    }
+  
+    #FeedNewTopS h2{
+      font-size: 0.8rem;
+      font-weight: 600;
+    }
+    
+    #FeedNewTopS h4{
+      font-size: 0.7rem;
+      font-weight: 600;
+    }  
+  }
+  
+  @media(min-width:912px) and (max-width:1024px){
+    #FeedNewTopS h1{
+      font-size: 0.7rem;
+      font-weight: 700;
+    }
+  
+    #FeedNewTopS h2{
+      font-size: 0.6rem;
+      font-weight: 600;
+    }
+    
+    #FeedNewTopS h4{
+      font-size: 0.6rem;
+      font-weight: 600;
+    }  
+  }

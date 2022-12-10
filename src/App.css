@@ -1,0 +1,84 @@
+
+#StyleSame1{
+  width: 100% !important;
+  display: inline-flex;
+  justify-content: center;
+  padding: 2rem ;
+}
+
+#StyleSame2{
+  text-align: center;
+  border-radius: 0.8rem;
+  width: 80%;
+  margin-top: 2rem;
+  /* height: 70vh !important; */
+  padding: 2rem;
+  box-shadow: 1px 5px 22px 1px rgb(151, 150, 150);
+}
+#StyleSame2 h1{
+  text-align: start;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+#StyleSame2 button{
+  background-color: black;
+  color: white;
+  padding: 0.3rem 3rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 2rem 0rem;
+  border-radius: 0.4rem;
+}
+
+
+#setInnerNotify label{
+  font-size: 1.1rem !important;
+  margin: 0.6rem 0rem 0.9rem 0rem !important;
+  font-weight: 600 !important;
+}
+#setInnerNotify input{
+  width: 100% !important;
+  border: none;
+  border-bottom: 1px solid gainsboro;
+}
+
+#setInnerNotify input{
+  margin-right: 5rem;
+  width: 98% !important;
+}
+
+
+#setInnerNotify input:focus{
+  outline: none;
+}
+
+#InputSame label{
+  font-size: 1rem !important;
+  margin: 0.6rem 0rem 0.9rem 0rem;
+  font-weight: 600;
+}
+#InputSame label{
+  margin-left: 0rem !important;
+ }
+#InputSame input{
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid gainsboro;
+}
+#InputSame select{
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid gainsboro;
+}
+#InputSame input:focus{
+  outline: none;
+}
+#InnerGeneral{
+  margin-top: 1rem !important;
+}
+#InputSame{   
+  padding-right: 1.3rem;
+}
+
+

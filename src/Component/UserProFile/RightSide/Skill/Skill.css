@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#setSkill{
+    background-color: white;
+    padding: 1rem 2rem;
+    text-transform: capitalize;
+}
+#setRowSkil{
+    padding: 1rem;
+    border-bottom: 1px solid gainsboro;
+}
+#setSkill h1{
+    font-size: 1rem;
+    padding: 1rem 1rem;
+    font-weight: 700;
+}
+#setSkill h3{
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0.5rem 0.5rem;
+}
+#setSikkImg{
+    font-size: 1.5rem;
+    text-align: end;
+}
+#setSikkImg i{
+    width: 100%;
+    height: 8vh;
+}
+
+
+@media(max-width:540px){
+    #setSkill h3{
+        padding-top: 0.9rem;
+    }
+    #setSkill h1{
+        padding: 1rem 0.3rem;
+    }
+}

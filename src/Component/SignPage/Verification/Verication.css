@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#verification{
+    width: 100%;
+    height:88.4vh;
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid; */
+}
+#verification h1{
+    font-size: 1.5rem;
+    padding: 2rem 0rem;
+    font-weight: 700;
+}
+
+#verification p{
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 600 !important;
+    padding: 0rem 7rem;
+}
+
+#verification h6{
+    font-size: 0.9rem;
+    text-align: center;
+    font-weight: 100;
+    text-align: center;
+    padding: 0rem 4rem;
+}
+#verifiBox{
+    text-align: center;
+    gap: 2rem;
+    width: 100%;
+    margin-top: 2rem;
+}
+#verifiBox input{
+    gap: 2rem !important;
+    padding: 0.3rem 0.3rem;
+    margin-left: 1rem;
+    width: 22rem;
+    border: 1px solid gainsboro;
+    box-shadow : 1px 3px 10px rgb(158, 150, 150);
+    outline: none;
+}
+#cerificationInner{
+    width: 90%;
+    text-align: center;
+    padding: 4rem 0rem;
+    background-color: white;
+    /* border: 1px solid; */
+
+}
+#cerificationInner h4{
+    font-size: 0.8rem;
+    padding: 1rem 0rem;
+}
+#cerificationInner button{
+    background-color: black;
+    color:white;
+    padding: 0.3rem 1.8rem;
+    width: 235px;
+    /* width: 70%; */
+    border-radius: 1rem;
+}
+
+
+/* @media(max-width:540px){
+    #cerificationInner{
+        width: 90%;
+    }
+    #verification{
+        width: 100% !important;
+    }
+} */

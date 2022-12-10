@@ -1,0 +1,83 @@
+#setDelete{
+  border-radius: 0.4rem;
+  height: 40vh;
+  width: 60%;
+  padding: 2rem;
+  box-shadow: 1px 5px 22px 1px rgb(151, 150, 150);
+}
+#Delete{
+  width: 100% !important;
+  display: flex;
+  height: 88vh;
+  align-items: center !important;
+  justify-content: center;
+}
+
+@media(min-width:1024px) and (max-width:1700px){
+  #Delete{
+    width: 99% !important;
+    height: 88vh !important;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media(min-width:992px) and (max-width:1024px){
+  #Delete{
+    width: 75% !important;
+    height: 88vh !important;
+    display: flex;
+    justify-content: center;
+  }
+ 
+}
+
+
+@media(min-width:768px) and (max-width:992px){
+  #Delete{
+    width: 75% !important;
+    height: 88vh !important;
+    display: flex;
+    justify-content: center;
+  }
+#setDelete{
+  width: 96% !important;
+  padding: 7rem 2rem;
+  height: 50vh !important;
+}
+.heading{
+  font-size: 2rem;
+}
+#setDelete p{
+  font-size: 1.6rem;
+}
+#setDelete button{
+  font-size: 1.5rem !important;
+}
+}
+
+@media(min-width:280px) and (max-width:540px){
+  #Delete{
+    width: 100% !important;
+    height: 88vh !important;
+    display: flex;
+    justify-content: center;
+  }
+  #setDelete{
+    height: 69vh;
+    width: 100%;
+  }
+  #setDelete p{
+    padding-left: 0rem !important;
+    font-size: 1.5rem;
+  }
+  #setDelete h4{
+    margin-top: 1.5rem;
+    font-size: 2rem;
+  }
+  #setMsmall{
+    width: 100%;
+    margin-right: 9rem !important;
+    color: rgba(236, 26, 26, 0.863);
+  }
+}

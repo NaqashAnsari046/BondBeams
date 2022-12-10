@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#mainLan{
+    padding: 1rem;
+    margin: 1rem 0rem;
+    background-color: white;
+}
+.setbtnLan button{
+    padding: 0.3rem 2rem;
+    margin: 1rem 1rem;
+    border: 1px solid gainsboro;
+    border-radius: 0.8rem;
+}
+
+@media(max-width:540px){
+    .setbtnLan{
+        display:flex !important;
+    }
+    .setbtnLan button{
+        padding: 0.4rem 2rem;
+        margin: 1rem 0.6rem;
+    }
+}
+

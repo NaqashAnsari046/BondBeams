@@ -1,0 +1,80 @@
+#FeedNewTopS {
+  padding: 0.5rem 0rem;
+  border-bottom: 1px solid gainsboro;
+  border-top: 1px solid gainsboro;
+}
+.setMainFeed {
+  margin: 0rem 0rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+#MainFeed {
+  margin: 1rem 0rem;
+  padding: 1rem;
+  margin-left: -1rem;
+  margin-right: 1rem !important;
+  background-color: white;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  position: fixed;
+}
+
+#MainFeed h1 {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+#FeedNewTopS h1 {
+  font-size: 1rem;
+}
+
+#FeedNewTopS h2 {
+  font-size: 0.5rem;
+}
+#FeedNewTopS h4 {
+  font-size: 0.5rem;
+}
+
+#FeedNewTopS h3 {
+  font-size: 0.7rem;
+  padding: 0.7rem 0.4rem;
+}
+
+@media (min-width: 1024px) and (max-width: 1600px) {
+  #MainFeed {
+    margin: 1rem 0rem;
+    padding: 1rem;
+    margin-left: -1rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    /* position: fixed; */
+    /* height: 55vh; */
+    /* width: 24%; */
+  }
+}
+
+@media (min-width: 912px) and (max-width: 1024px) {
+  #MainFeed {
+    margin: 1rem 1rem 1rem 0rem;
+    padding: 1rem;
+    margin-left: -1rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 540px) {
+  #MainFeed {
+    margin-top: 5rem;
+    position: absolute;
+    margin-left: 0rem;
+  }
+  #MainFeed h1 {
+    font-size: 0.7rem;
+    font-weight: 700;
+  }
+  .setMainFeed{
+    height: 0rem;
+  display: none;
+  }
+}

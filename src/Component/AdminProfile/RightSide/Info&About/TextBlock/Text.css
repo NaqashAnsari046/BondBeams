@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#setmaintext{
+    width: 48%;
+    background-color: white;
+    padding: 1rem 1rem;
+    text-transform: capitalize;
+    margin-top: 1rem !important;
+}
+#writeIcon{
+    font-size: 0.7rem !important;
+}
+#textHeader{
+    font-size: 0.7rem;
+}
+
+#settext{
+    display: flex;
+    /* height: 3rem; */
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 0rem;
+    border-bottom: 1px solid gainsboro;
+    /* background-color: blueviolet; */
+    /* background-color: rgba(255, 251, 0, 0.034); */
+}
+#settext h2{
+    font-size: 1.2rem !important;
+    padding: 0rem;
+    font-weight: 700;
+}
+#setlitext h6{
+    font-size: 0.8rem;
+    margin-top: 0rem;
+}
+
+#settext i{
+    font-size: 0.8rem;
+}
+#setlitext li{
+    font-size: 0.6rem;
+    /* padding-top: 0.5rem; */
+    line-height:2rem;
+    list-style-type: none;
+}
+#setlitext span{
+    font-weight: 700;
+}
+#setlitext i{
+    padding: 0.6rem 1rem;
+
+}
+#setlitext{
+    padding: 0rem;
+}
+#setlitext h6{
+    display: flex;
+    padding: 0rem;
+}
+
+@media(min-width:1024px) and (max-width:1600px){
+#setmaintext{
+    width: 48%;
+    padding: 1rem 0rem;
+    margin-top: 1.5rem !important;
+}
+}
+
+
+@media(min-width:992px) and (max-width:1024px){
+    #setmaintext{
+        width: 48%;
+        padding: 1rem 0rem;
+        margin-top: 1.5rem !important;
+    }
+    #settext{
+        display: flex;
+        padding: 0rem 0rem 0rem 0.5rem;
+        justify-content: space-between !important;
+        border-bottom: 1px solid gainsboro;
+    }
+}
+
+@media(min-width:768px) and (max-width:992px){
+    #setlitext h6{
+        font-size: 0.9rem;
+        margin-top: 0rem;
+    }
+    #setlitext li{
+        font-size: 0.7rem;
+    }
+    #setmaintext{
+        padding: 0rem 0rem;
+        margin-top: 1.5rem !important;
+    }
+    
+}
+
+@media(min-width:280px) and (max-width:540px){
+    #settext{
+        width: 100%;
+        justify-content: space-between;
+    }
+    #setmaintext{
+        width: 100% !important;
+    }
+}

@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#MainPeople{
+    background-color: #e5e5e5;
+    height: 88vh;
+    position: fixed;
+    overflow: scroll;
+}
+
+#innerPeoplePage{
+    width: auto;
+    padding: 1rem;
+}
+
+
+#setToSearchFedPeople{
+    width: 100%;
+    /* background-color: greenyellow; */
+    text-transform: capitalize;
+    padding: 0rem 10rem;
+}
+
+
+#setinnerPagePeople{
+    display: flex;
+    align-items: center;
+    height: 15vh;
+    /* width: 54%; */
+    justify-content:space-between;
+    background-color: white;
+    padding: 0rem 2rem;
+    margin-top: 1rem;
+    border-radius: 0.9rem !important;
+
+}
+#setPageName{
+    padding-top: 1rem;
+    margin-left: 1rem;
+}
+
+#userPeoplePage{
+    display: flex;
+}
+
+
+#setToSearchFedPeople img {
+    width: 5rem;
+    height: 5rem;
+    padding: 0.3rem;
+    border-radius: 3rem;
+    border: 1px solid gainsboro;
+  }
+  #setToSearchFedPeople h2 {
+    font-weight: 700;
+    font-size: 1.2rem !important;
+  }
+  #setToSearchFedPeople h4 {
+    font-size: 0.8rem !important;
+    margin-top: -0.4rem !important;
+  }
+  #setToSearchFedPeople button {
+    text-align: center;
+    padding: 0.1rem 1rem !important;
+    background-color: black;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 0.8rem;
+    margin: 3rem 0rem 3rem 0rem;
+  }
+
+
+@media(min-width:1024px) and (max-width:1700px){
+    #mainpeoplepage{
+        height: 86vh !important;
+    } 
+    #setToSearchFedPeople{
+        width: 100%;
+        padding: 0rem 2.5rem;
+    }  
+    #setToSearchFedPeople img {
+        width: 4rem;
+        height: 4rem;
+        }
+        
+}
+
+@media(min-width:992px) and (max-width:1024px){
+    #mainpeoplepage{
+        height: 84vh !important;
+    }   
+    #setToSearchFedPeople{
+        width: 100%;
+        padding: 0rem 1rem;
+    }
+    #setToSearchFedPeople img {
+        width: 4rem;
+        height: 4rem;
+        }
+
+}

@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#setColmoini{
+    height: auto;
+}
+#NewFeed{
+    text-transform: capitalize;
+    background-color: #e5e5e5;
+    padding-bottom: 3rem;
+    overflow: auto;
+    justify-content: space-between;
+}
+#setcol2{
+    height: 92vh !important;
+}
+#mainpeoplepage{
+    margin-top: 1rem;
+    height: 86vh !important;
+}
+
+#setRideTedt h3{
+    font-size: 0.7rem;
+    padding: 0.7rem 0rem;
+  }
+  #setRideTedt h1{
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    font-weight:700;
+  }
+  @media(min-width:768px) and (max-width:912px){
+   #setColmoini{
+    margin-left: -5rem;
+   }   
+
+}
+  
+@media(min-width:280px) and (max-width:540px){
+    #setcol2{
+        display: none;
+    }   
+
+}

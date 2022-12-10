@@ -1,0 +1,35 @@
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+}
+.group{
+    text-transform: capitalize;
+    padding: 1rem;
+    background-color: white;
+    margin: 1rem 0rem;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+.group h1{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+#setGroup h1{
+    font-size: 0.7rem !important;
+    font-weight: 700;
+    padding-left: 1rem;
+}
+#setGroup span{
+    font-size: 0.7rem !important;
+    font-weight: 700;
+    margin-top: -1rem !important;
+
+    padding-left: 1rem;
+}
+/* #empinnergroup{
+width: 20%;
+} */
+#empinnergroup img{
+    /* width: 100%; */
+    height: 6vh;
+}

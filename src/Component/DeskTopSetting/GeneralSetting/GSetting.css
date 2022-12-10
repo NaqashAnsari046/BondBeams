@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#StyleSame1G{
+  width: 100% !important;
+  display: inline-flex;
+  justify-content: center;
+  padding: 2rem ;
+  height: 88vh;
+}
+#StyleSame2G{
+  text-align: center;
+  border-radius: 0.8rem;
+  width: 80%;
+  margin-top: 2rem;
+  height: 60vh !important;
+  padding: 2rem;
+  box-shadow: 1px 5px 22px 1px rgb(151, 150, 150);
+}
+#StyleSame2G h1{
+  text-align: start;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+#StyleSame2G button{
+  background-color: black;
+  color: white;
+  padding: 0.3rem 3rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 1rem 0rem;
+  border-radius: 0.4rem;
+}
+
+#innerNotidyGnder{
+    align-items: center;
+}
+.countryNow{
+    margin: 1rem 0rem !important;
+}
+
+@media(min-width:1024px) and (max-width:1700px){
+  #StyleSame1G{
+    width: 100% !important;
+    display: inline-flex;
+    justify-content: center;
+    padding: 1rem ;
+    height: 88vh !important;
+  }
+  #StyleSame2G{
+    text-align: center;
+    border-radius: 0.8rem;
+    width: 90%;
+    margin-top: 0rem;
+    height: 82vh !important;
+    padding: 1rem;
+    box-shadow: 1px 5px 22px 1px rgb(151, 150, 150);
+  }
+  
+}
+
+@media(min-width:992px) and (max-width:1025px){
+  #StyleSame1G{
+    width: 74% !important;
+    display: inline-flex;
+    justify-content: center;
+    padding: 1rem ;
+  }
+  #StyleSame2G{
+    text-align: center;
+    border-radius: 0.8rem;
+    width: 90%;
+    margin-top: 0rem;
+    height: 82vh !important;
+    padding: 1rem;
+    box-shadow: 1px 5px 22px 1px rgb(151, 150, 150);
+  }
+}
+
+
+@media(min-width:768px) and (max-width:992px){
+ #setInnerNotify label{
+  font-size: 1.5rem !important;
+ }
+ #InputSame label{
+  font-size: 1.5rem !important;
+ }
+ #StyleSame2G h1{
+  font-size: 2rem;
+ }
+ #StyleSame2G{
+  height: 77vh !important;
+  width: 93%;
+ }
+}
+
+@media(min-width:280px) and (max-width:540px){
+  #setInnerNotify label{
+   font-size: 1rem !important;
+  }
+  #setInnerNotify input{
+    width: 93% !important;
+  }
+  #InputSame label{
+   font-size: 1rem !important;
+  }
+  #StyleSame2G h1{
+   font-size: 1.5rem;
+  }
+  #StyleSame2G{
+   height: 95vh !important;
+   width: 85% !important;
+   /* padding: 1rem; */
+  }
+  #StyleSame1G{
+    height: 100vh !important;
+    padding: 0rem !important;
+  }
+ }
+
+
+
+
+@media (min-width:280px) and (max-width:540px){
+}

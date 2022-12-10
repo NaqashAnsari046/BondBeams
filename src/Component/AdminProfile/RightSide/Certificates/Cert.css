@@ -1,0 +1,120 @@
+.exptext{
+  margin: 10px 0px;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#setDeleteCon{
+  display: flex;
+}
+#setImgCerti input{
+  background-color: aqua;
+  height: 2vh;
+}
+#setDeleteCon i{
+  margin-right: 0.6rem;
+  font-size: 0.7rem !important;
+}
+#BorCerti {
+  border-right: 1px solid gainsboro;
+  margin-top: 2rem;
+}
+.setmainemp {
+  border-bottom: 1px solid gainsboro;
+  padding-bottom: 1rem;
+}
+.setmainemp img{
+    background-color: blue;
+}
+
+#helo {
+  margin: 1rem 0rem;
+  background-color: white;
+  padding: 1rem;
+  border-bottom: 1px solid gainsboro;
+}
+#NavLinkCertity {
+  margin-top: 1rem;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  border-radius: 0.4rem;
+  padding: 0.3rem 2rem;
+}
+
+.setcol11 h1 {
+  padding-top: 0.8rem;
+  font-size: 0.8rem;
+}
+.setcol11 i{
+  font-weight: 700;
+  font-size: 0.8rem;
+  font-family: 'serif';
+}
+.setcol11 p {
+  font-size: 1rem;
+  margin: 0rem;
+}
+
+.setcol11 span {
+  display: block;
+  color: gainsboro;
+  font-size: 0.8rem;
+}
+.setcol11 {
+  /* height: 8rem; */
+  align-items: flex-start !important;
+  text-transform: capitalize;
+}
+
+.setmainemp i {
+  font-size: 0.6rem !important;
+}
+
+@media (min-width: 1024px) and (max-width: 1600px) {
+    
+}
+
+@media (min-width: 992px) and (max-width:1024px) {
+    #NavLinkCertity {
+        /* margin-top: 0rem; */
+        padding: 0.1rem 2rem !important;
+      }
+      .setcol11 h1 {
+        padding-top: 0.1rem;
+        font-size: 0.6rem;
+      }
+      
+      .setcol11 p {
+        font-size: 0.7rem;
+        margin: 0rem;
+      }
+      .setcol11 span {
+        font-size: 0.6rem;
+      }
+      #NavLinkCertity {
+        padding: 0.1rem 1.5rem !important;
+      }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+    
+    .setcol11{
+        padding-left: 1rem !important;
+        /* font-weight: 700; */
+      }
+}
+
+@media (min-width: 280px) and (max-width:540px) {
+    
+    #NavLinkCertity {
+        padding: 0.1rem 1.5rem !important;
+      }
+      #helo {
+        padding: 1rem;
+      }
+}

@@ -1,0 +1,119 @@
+#imgFeed{
+    margin-top: 1rem;
+}
+#imgFeed img{
+    width: 100%;
+    height: 12rem;
+    border-top-left-radius: 0.5rem;
+}
+#imglog{
+    text-align: center;
+    background-color:white;
+}
+#imglog img{
+    margin-top: -3rem;
+    width:6rem;
+    height: 6rem;
+    border-radius: 3rem;
+}
+#imglog h2{
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0rem !important;
+}
+#imglog p{
+    text-transform: none;
+    font-size: 0.7rem;
+    color: gainsboro;
+    margin-top: -0.41rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid gainsboro;
+}
+#checkbook{
+    display: flex;
+    width: 100%;
+    background-color: white;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    margin-top: -1rem !important;
+    border-bottom: 1px solid gainsboro;
+}
+#checkbook span{
+    font-size: 1rem;
+    font-weight: 600;
+}
+@media(max-width:540px){
+    #checkbook span{
+        font-size: 1rem !important;
+    }
+}
+
+
+@media(min-width:1024px) and (max-width:1600px){
+    #checkbook span{
+        font-size: 0.8rem;
+    } 
+    #checkbook{margin-bottom: 0.5rem;
+        padding: 0.2rem 1rem;
+        border-bottom: 1px solid gainsboro;
+    }
+    #imgFeed img{
+        width: 100%;
+        height:8rem !important;
+    }
+    #imglog img{
+        margin-top: -2.5rem;
+        width:5rem;
+        height: 5rem;
+        border-radius: 3rem;
+    }
+}
+
+@media(min-width:992px) and (max-width:1024px){
+    #checkbook span{
+        font-size: 0.8rem;
+    } 
+    #checkbook{margin-bottom: 0.5rem;
+        padding: 0.2rem 1rem;
+        border-bottom: 1px solid gainsboro;
+    }
+    #imgFeed img{
+        width: 100%;
+        height: 8rem !important;
+    }
+    #imglog img{
+        margin-top: -2rem;
+        width:4rem;
+        height: 4rem !important;
+        border-radius: 3rem;
+    }
+}
+
+
+
+/* @media(min-width:912px) and (max-width:1020px){
+    #checkbook span{
+        font-size: 0.8rem;
+    } 
+    #imglog img{
+        width:3rem;
+        height: 3rem;
+    }
+    #checkbook{
+        padding: 0.3rem 1rem;
+        border-bottom: 1px solid gainsboro;
+    }
+    #imgFeed img{
+        width: 100%;
+        height: 5.25rem;
+    }
+} */
+
+
+
+@media(min-width:280px) and (max-width:540px){
+    #imgFeed{
+        display: none !important;
+        background-color:blueviolet;
+    }
+}

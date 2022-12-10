@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#setMainTextInfo {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#setabout p {
+  font-size: 0.7rem;
+  padding: 1rem 1rem;
+  font-weight: 600;
+  height: 17vh;
+  overflow: scroll;
+  scrollbar-width: 7px;
+}
+
+#setmaintext1 {
+  width: 48%;
+  height: 30vh;
+  text-transform: capitalize;
+  padding: 1rem;
+  margin: 1rem 0rem !important;
+  background-color: white;
+}
+
+@media(min-width:768px) and (max-width:992px){
+  #setmaintext1 {
+    width: 48%;
+    height: 25vh;
+    text-transform: capitalize;
+    padding: 1rem;
+    margin: 1.5rem 0rem;
+  }
+}
+
+
+@media(min-width:280px) and (max-width:540px){
+  #setMainTextInfo {
+    width: 100%;
+    display: block;
+  }
+  #setmaintext1{
+    width: 100%;
+  }
+}

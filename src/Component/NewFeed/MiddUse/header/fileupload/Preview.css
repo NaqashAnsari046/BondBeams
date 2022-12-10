@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.modal-content{
+    height: 70vh;
+}
+#PostCreatePP{
+    height: 35vh;
+    width: 100%;
+    padding: 0rem !important;
+}
+.PostCreatePP img{
+    margin-left: 0rem !important;
+    width: 100%;
+    height: 50vh !important;
+}
+.setImgPostC{
+    width: 100% auto;
+}
+
+.setImgPostC img{
+    text-align: start;
+    margin-left: -12.5rem;
+    width:580%;
+    height: 100%;
+}
+#setimgPOP{
+    padding: 0rem;
+    height: 35vh;
+}
+
+ @media(min-width: 1025px) and (max-width:1700px){
+    #PostCreatePP{
+        height: 35vh;
+        width: 100%;
+        padding: 0rem !important;
+    }
+    .PostCreatePP img{
+        margin-left: 0rem !important;
+        width: 100%;
+        height: 50vh !important;
+    }
+    .modal-content{
+        height: 90vh;
+    }
+}
+
+@media(min-width: 992px) and (max-width:1024px){
+    .modal-content{
+        height: 90vh !important;
+    }
+}
+
+@media(min-width: 768px) and (max-width:992px){
+    .modal-content{
+        height: 70vh;
+    }
+}
+
+@media (min-width: 280px) and (max-width: 540px) {
+    .setImgPostC img{
+        text-align: start;
+        margin-left: -12.5rem;
+        height: 100%;
+    }
+    .modal-content{
+        height: 85vh;
+    }
+   
+    
+  } 

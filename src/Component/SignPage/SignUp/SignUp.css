@@ -1,0 +1,239 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.forget {
+  padding: 1rem 0rem 0rem 0rem;
+  width: 100%;
+  text-align: end;
+}
+.SginageSet {
+  width: 100%;
+  height: 88vh;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#signFrom {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  box-shadow: 1px 3px 10px rgb(158, 150, 150);
+  width: 30%;
+  padding: 0.8rem 3rem;
+  border-radius: 0.5rem;
+}
+
+#signFrom input {
+  margin-top: 0.2rem;
+  flex-direction: column !important;
+  width: 100%;
+  padding: 0.3rem 1rem;
+  border: 1px solid gainsboro;
+  border-radius: 0.5rem;
+}
+
+#signFrom input::placeholder {
+  font-size: 0.7rem;
+  text-transform: capitalize;
+}
+#signFrom input:focus {
+  outline: none;
+}
+/* label{
+    font-size: 0.8rem;
+    margin-top: 0.2rem;
+  } */
+#error {
+  font-size: 0.6rem;
+}
+label {
+  display: inline-flex;
+  width: 100%;
+  text-transform: capitalize;
+  justify-content: space-between;
+  /* flex-direction: column; */
+}
+label h6 {
+  font-size: 0.8rem;
+  margin: 0rem;
+  margin-top: 1rem;
+}
+#forgot {
+  width: 100%;
+  text-align: end !important;
+  padding: 1rem 0rem;
+}
+
+.seticonInput i {
+  left: 1rem;
+  position: absolute;
+  padding-top: 1rem;
+  font-size: 1.2rem;
+  color: gainsboro;
+}
+
+#signFrom h2 {
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.1rem 0rem;
+}
+#signFrom h3 {
+  font-size: 0.7rem;
+  margin-top: 2rem;
+}
+.seticonInput {
+  width: 100%;
+  position: relative;
+  display: inline-flex;
+}
+#signFrom img {
+  width: 60%;
+  height: 6vh;
+}
+
+#signFrom button {
+  width: 100%;
+  margin-top: 0.5rem;
+  background-color: black;
+  color: white;
+  font-weight: 800;
+  padding: 0.5rem 1rem;
+  border: 1px solid gainsboro;
+  border-radius: 0.5rem;
+}
+.icon i {
+  font-size: 1.5rem;
+  border: 1px solid gainsboro;
+  margin: 1rem 0.6rem;
+  padding: 0.3rem;
+  width: 21%;
+  border-radius: 1rem;
+  background: rgba(190, 184, 184, 0.479);
+}
+
+#setcheckbox {
+  width: 100%;
+  display: flex;
+  margin-top: 1rem;
+}
+#setcheckbox input {
+  width: 3% !important;
+  margin-top: -0.2rem !important;
+  position: top;
+}
+#setboxtext {
+  padding-left: 0.4rem;
+  font-size: 0.8rem;
+  text-transform: capitalize;
+}
+.phone_code {
+  margin-top: 0.2rem;
+  flex-direction: column !important;
+  width: 100%;
+  padding: 0.3rem 1rem;
+  border: 1px solid gainsboro;
+  border-radius: 0.5rem;
+}
+
+@media (min-width: 1024px) and (max-width: 1700px) {
+  .SginageSet {
+    width: 100%;
+    height: 100vh !important;
+  }
+  #signFrom {
+    width: 30%;
+    padding: 2rem;
+  }
+  #signFrom input {
+    margin-top: 0.2rem;
+    flex-direction: column !important;
+    padding: 0.3rem 1rem;
+    border: 1px solid gainsboro;
+    border-radius: 0.5rem;
+  }
+  label h6 {
+    font-size: 0.8rem;
+    margin-top: 0.1rem !important;
+  }
+  #setcheckbox input {
+    width: 4% !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+  .SginageSet {
+    width: 100%;
+    padding: 0rem;
+    height: 99vh !important;
+    position: absolute;
+  }
+  #signFrom {
+    width: 40%;
+    padding: 1rem;
+  }
+  #signFrom input {
+    margin-top: 0.1rem;
+    flex-direction: column !important;
+    padding: 0.3rem 1rem;
+    border: 1px solid gainsboro;
+    border-radius: 0.5rem;
+  }
+  label h6 {
+    font-size: 0.8rem;
+    margin-top: 0.1rem !important;
+  }
+  #setcheckbox input {
+    width: 4% !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  #signFrom {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    box-shadow: 1px 3px 10px rgb(158, 150, 150);
+    width: 94%;
+    padding: 1.5rem 2rem !important;
+  }
+  #setcheckbox input {
+    width: 5%;
+    margin-top: 1rem !important;
+    position: top;
+  }
+  label {
+    font-size: 1.6rem;
+    margin-top: 0.9rem;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 540px) {
+  #signFrom {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    box-shadow: 1px 3px 10px rgb(158, 150, 150);
+    width: 94%;
+    padding: 1.5rem 3rem !important;
+  }
+  #setcheckbox input {
+    width: 5%;
+    margin-top: 1rem;
+    position: top;
+  }
+  label {
+    font-size: 1.6rem;
+    margin-top: 0.9rem;
+  }
+  .SginageSet {
+    height: 100vh;
+  }
+}

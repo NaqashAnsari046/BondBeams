@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#StyleSame1P{
+    width: 100% !important;
+    height: 88vh ;
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    padding: 2rem ;
+  }
+#StyleSame2P{
+    text-align: center;
+    border-radius: 0.8rem;
+    width: 80%;
+    height: 60vh !important;
+    padding: 2rem;
+    box-shadow: 1px 5px 22px 1px rgb(151, 150, 150);
+  }
+  #StyleSame2P h1{
+    text-align: start;
+      font-size: 1.2rem;
+      font-weight: 700;
+  }
+  
+  #StyleSame2P button{
+    background-color: black;
+    color: white;
+    padding: 0.3rem 3rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 2rem 0rem;
+    border-radius: 0.4rem;
+  }
+
+  @media(min-width:1024px) and (max-width:1700px){
+    #StyleSame1P{
+        width: 100% !important;
+        padding: 1rem ;
+        height: 89vh;
+      }
+    #StyleSame2P{
+        width: 80%;
+        margin-top: 0rem;
+        height: 79vh !important;
+        padding: 2rem;
+      }
+  }
+
+  
+  @media(min-width:992px) and (max-width:1024px){
+    #StyleSame1P{
+        width: 70% !important;
+        padding: 2rem ;
+      }
+    #StyleSame2P{
+        width: 90%;
+        margin-top: 0rem;
+        height: 80vh !important;
+        padding: 2rem;
+      }
+  }
+
+  @media(min-width:768px) and (max-width:992px){
+    #StyleSame1P{
+        width: 80% !important;
+        padding: 2rem ;
+      }
+    #StyleSame2P{
+        width: 90%;
+        margin-top: 0rem;
+        height: 70vh !important;
+        padding: 2rem;
+      }
+  }
+
+
+  @media(min-width:280px) and (max-width:540px){
+    #StyleSame1P{
+        margin-top: 3rem;
+        width: 93% !important;
+        padding: 0rem !important;
+    }
+    #StyleSame2P{
+        margin-top: 0rem;
+        height: 95vh !important;
+        padding: 1rem;
+        width: 90%;
+      }
+  }

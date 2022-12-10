@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.setmainBlock{
+    margin: 0.5rem 0rem;
+    padding: 2rem;
+    background-color: white;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+.setmainBlock h1{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+#setimgSet img{
+    width: 100%;
+    border-radius: 4rem;
+    border: 1px solid gainsboro;
+    padding: 0.2rem;
+    margin-top: 1rem;
+}

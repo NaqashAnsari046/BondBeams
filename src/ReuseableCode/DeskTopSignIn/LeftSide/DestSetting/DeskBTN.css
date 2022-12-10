@@ -1,0 +1,206 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.active i{
+  background-color:rgba(220, 220, 220, 0.719);
+  width: 1.4rem !important;
+  height: 1.4rem;
+  border-radius: 2rem;
+  padding-top: 0.4rem;
+  margin-top: -0.2rem;
+} 
+/* .active {
+  border-right: 3px solid rgba(220, 220, 220, 0.719);
+} */
+#setconas1{
+  width: 30%;
+  height: 88vh;
+}
+.SetSmallSetting img{
+  display: none;
+}
+
+.SetSmallSetting h1{
+  font-size: 1.5rem !important;
+}
+
+#DestBTN {
+  display: flex !important;
+  width: 100%;
+}
+#DestBTNN {
+    display: flex !important;
+    width: 100%;
+    display: none !important;
+  }
+#setconas {
+  border-right: 1px solid gainsboro;
+  width: 100% !important;
+  height: 91vh;
+}
+
+#setconas h1 {
+  font-size: 1.7rem;
+  font-weight: 700 !important;
+}
+#setconas img {
+  margin: 2rem 0rem;
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+}
+
+#setconas {
+  text-align: center;
+  padding-top: 2rem;
+  height: 100vh;
+  width: 23% !important;
+  position: fixed;
+}
+
+#setconas1{
+  width: 30%;
+}
+
+.setconasmall i{
+  margin-top: 0rem;
+  font-size: 1.3rem;
+  align-items: center !important;
+  width: 2rem !important;
+  height: 2rem;
+  padding-top: 0.4rem;
+  border-radius:2rem;
+  background-color: rgba(220, 220, 220, 0.719);
+}
+.setconasmall h1{
+  width: 40%;
+  margin-bottom: 1rem;
+  margin-left: 6rem;
+  border-left:  1px solid gainsboro !important;
+  border-right: 1px solid gainsboro !important;
+}
+
+#DestProfileLink {
+  display: flex;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.6rem 1rem;
+  border-top: 1px solid gainsboro;
+  text-decoration: none;
+  color: black;
+}
+#DestProfileLink:hover {
+  background-color: black;
+  color: white;
+}
+#DestProfileLink i {
+  width: 1rem;
+}
+#setarrow {
+  padding: 0rem 1rem;
+}
+
+
+
+@media (min-width: 1024px) and (max-width: 1700px) {
+  #setconas{
+    height: 100vh;
+    width: 26% !important;
+    position: fixed;
+  }
+  #setconas1{
+    width: 35%;
+  }
+  #DestProfileLink {
+    display: flex;
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 0.6rem 1rem;
+    border-top: 1px solid gainsboro;
+    text-decoration: none;
+    color: black;
+  }
+  #DestProfileLink {
+    padding: 0.5rem 1rem;
+  }
+
+  #setconas img {
+    margin: 0.5rem 0rem;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+
+  #setconas {
+    text-align: center;
+    padding-top: 0.6rem;
+  }
+
+  #setconas h1 {
+    font-size: 1rem;
+    font-weight: 700 !important;
+  }
+ 
+}
+
+@media (min-width: 992px) and (max-width: 1025px) {
+  #setconas{
+    height: 100vh;
+    width: 26% !important;
+    position: fixed;
+  }
+  #setconas1{
+    width: 26% !important;
+  }
+  #setconas img {
+    margin: 0.5rem 0rem;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+  #setconas{
+    height: 100vh;
+    width: 33% !important;
+    position: fixed;
+  }
+  #setconas1{
+    width: 45%;
+  }
+  #setarrow{
+    text-align: start;
+  }
+  #setarrow span{
+    font-size: 1.2rem;
+  }
+
+}
+
+@media (min-width: 280px) and (max-width: 540px) {
+ 
+  #DestBTNN{
+    display: block !important;
+  }
+  #setconas{
+    width: 100% !important;
+  }
+  #DestProfileLink{
+    padding: 0.3rem 1rem;
+  }
+  #DestProfileLink i{
+    font-size: 1rem !important;
+    padding-top: 0.5rem  !important;
+  }
+  
+
+  #DestBTN{
+    display: none !important;
+  }
+}

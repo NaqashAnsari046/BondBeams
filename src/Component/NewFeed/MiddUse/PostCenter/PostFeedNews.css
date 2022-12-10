@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.FeedNowPost{
+    padding: 0rem 0rem;
+    margin-top: 1rem !important;
+}
+.PostHead{
+    border-bottom: 1px solid gainsboro;
+    width: 100%;
+    margin-left: 0rem !important;
+    margin-top: 2rem;
+ }
+#setHeadFeed{
+    display: flex;
+    padding: 1rem 1rem;
+}
+#setHeadFeed img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 3rem;
+}
+#setTextFeed h4{
+    margin: 0.6rem 0.7rem 0rem 0.7rem !important;
+    font-size: 0.9rem;
+    font-weight: 700;  
+}
+#setTextFeed span{
+    font-size: 0.6rem;
+    padding: 0rem 0rem 0rem 0.7rem !important;
+    font-weight: 700;
+}
+#setTextFeed h5{
+    font-size: 0.9rem;
+    font-weight: 900;
+    margin-top: 2rem !important;
+    padding: 0rem 0.8rem;
+    margin-top: -5rem;
+}
+#setIconFeed i{
+    font-size: 1.5rem;
+    margin-top: 1.6rem;
+}

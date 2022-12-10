@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#setHEADPOST{
+    padding: 0.6rem 1rem !important; 
+    height: 12vh;
+    text-align: end;
+    background-color: white;
+}
+.setIMGSetHEAD{
+    width: 100%;
+    text-align: center;
+}
+#setFeedIcon{
+    margin-right: 0rem;
+}
+
+.setIMGSetHEAD img{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 3rem;
+    border: 1px solid gainsboro;
+}
+#setHEADInput{
+    width: 88%;
+    padding: 0rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+#setHEADInput input{
+    margin-left: 1rem;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gainsboro;
+}
+
+#PostUpdateIcon{
+    width: 100%;
+}
+.setInputText{
+    width: 100%;
+}
+
+
+@media(min-width:1024px) and (max-width:1700px){
+    
+    #setHEADPOST{
+        padding: 0.6rem 1rem !important; 
+        height: 16vh;
+        text-align: end;
+    }
+    #setFeedIcon{
+        margin-right: 2.5rem;
+    }
+    
+    #setHEADInput input{
+        margin-left: 0rem;
+    }
+
+    #setHEADInput{
+        width: 80%;
+        margin-left: 2rem;
+    }
+   #setFeedIcon{
+    margin-right: 1.5rem;
+   }
+}
+
+@media(min-width:992px) and (max-width:1025px){
+    
+    #setHEADPOST{
+        padding: 0.6rem 1rem !important; 
+        height: 16vh;
+        background-color:white;
+        text-align: end;
+    }
+    .setIMGSetHEAD img{
+        width: 2.8rem;
+        height: 2.8rem;
+        border-radius: 3rem;
+    }
+    #setHEADInput{
+        width: 80%;
+        margin-top: 0.6rem;
+        margin-left: 0rem;
+    }
+    #setHEADInput input{
+        margin-left: 0rem;
+    }
+    #setFeedIcon{
+        margin-right: 0rem;
+    }
+  
+    
+}
+
+@media(min-width:768px) and (max-width:992px){
+    #setHEADPOST{
+        height: 11vh;
+        padding: 1rem 1rem !important;
+    }
+    #setFeedIcon{
+        margin-right: 2rem;
+    }
+    #setFeedIcon{
+        margin-right: 0rem;
+    }
+    #setHEADInput{
+        width: 80%;
+    }
+    #setHEADInput input{
+        margin-left: 0.5rem !important;
+    }
+   
+}
+
+@media(min-width:280px) and (max-width:540px){
+    .setIMGSetHEAD img{
+        width: 2.8rem;
+        height: 2.8rem;
+        border-radius: 3rem;
+    }
+    #setHEADPOST{
+        height: 14vh;
+        padding: 1rem 0.4rem !important;
+    }
+    #setFeedIcon{
+        margin-right: 1rem;
+    }
+    #setHEADInput{
+        margin-top: 0.5rem;
+    }
+    #setFeedIcon{
+        margin-right: 0rem;
+    }
+    #setHEADInput input{
+        margin-left: 0rem !important;
+    }
+    #setHEADInput{
+        width: 80%;
+    }
+}

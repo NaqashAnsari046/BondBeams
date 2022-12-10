@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#setDeskProfile {
+  text-align: center;
+  padding-top: 2rem;
+  width: 40%;
+}
+#setBGDESk{
+width:100%;
+}
+#setDeskProfile h1 {
+  font-size: 1.7rem;
+  font-weight: 700 !important;
+}
+#setDeskProfile img {
+  margin: 2rem 0rem;
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+}
+
+
+/* @media(max-width:540px) {
+    #setBGDESk{
+        display: block;
+    }
+} */
+
+/* @media (max-width: 1024px) {
+  #setDeskProfile {
+    display: flex;
+    padding-top: 0.3rem;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: start;
+    padding: 0.5rem 1rem;
+  }
+  #setDeskProfile img {
+    margin: 0.4rem 0rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+  }
+  #setDeskProfile h1 {
+    font-size: 1rem;
+    padding: 0.4rem 0rem 0rem 0.4rem;
+    font-weight: 700;
+  }
+} */

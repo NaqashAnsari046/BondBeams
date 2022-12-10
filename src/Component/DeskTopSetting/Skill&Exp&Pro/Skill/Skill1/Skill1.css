@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#USkill1{
+    width: 100% !important;
+    height: 88vh !important;
+    align-items: center !important;
+    /* margin-top: 10vh; */
+    padding: 2rem  0;
+    /* margin: auto; */
+}
+
+#InnerSkill1{
+    text-align: end;
+    border-radius: 0.8rem;
+    width: 85%;
+    padding: 2rem;
+    box-shadow: 1px 5px 22px 1px rgb(151, 150, 150);
+}
+#InnerSkill1 h1{
+    text-align: start;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.pera{
+    margin-top: 1vh;
+    padding: 1rem;
+}
+.pera h2{
+    text-align: start;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.pera p{
+    text-align: start;
+    font-size: 0.8rem;
+}
+.text_area{
+    width:99%;
+    min-height: 25vh;
+    margin-top: -1rem;
+}
+
+textarea{
+    text-transform: capitalize;
+    padding: 10px;
+}
+ #InnerSkill1 button{
+    background-color: black;
+    color: white;
+    padding: 0.3rem 3rem;
+    text-align:end;
+    justify-content: end;
+    align-items: flex-end;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin:1rem 0rem 0rem 0rem;
+}
+
+
+/* @media(max-width:540px){
+    #InnerSkill1{
+        width: 100%;
+        padding: 1rem;
+    }
+    #USkill1{
+        width: 100% !important;
+        padding: 1rem ;
+    }
+    #setNotyCheck input{
+        display: inline;
+        margin-top: 0rem !important;
+    }
+    #setNotyCheck label{
+        margin-left: 0.6rem;
+    }
+    .pera{
+        padding: 0.4rem;
+    }
+} */
+
+@media(min-width:1024px) and (max-width:1700px){
+    #InnerSkill1{
+        width: 80% !important;
+        padding: 1rem;
+    }
+    #USkill1{
+        width: 72% !important;
+        padding: 1rem ;
+    }
+    #setNotyCheck input{
+        display: inline;
+        margin-top: 0rem !important;
+    }
+    #setNotyCheck label{
+        margin-left: 0.6rem;
+    }
+}
+
+
+@media(min-width:768px) and (max-width:992px){
+    #InnerSkill1{
+        width: 97% !important;
+        padding: 1rem;
+        margin-top: 8rem !important;
+    }
+    #USkill1{
+        width: 90% !important;
+        padding: 1rem ;
+    }
+    #setNotyCheck input{
+        display: inline;
+        margin-top: 0rem !important;
+    }
+    #setNotyCheck label{
+        margin-left: 0.6rem;
+    }
+}

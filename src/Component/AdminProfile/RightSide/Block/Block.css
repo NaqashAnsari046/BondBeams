@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}   
+#setUploadImgUser img{
+    /* width: 18% !important; */
+    /* position: absolute; */
+}
+#setUploadImgUser input{
+    /* position: relative; */
+    /* width: 20%; */
+    margin-top: 1rem !important;
+    bottom: 0;
+}
+#setUploadImgUser label{
+    /* position: relative; */
+    /* width: 3rem; */
+    height: 1.5rem;
+    cursor: pointer;
+    margin-left: 0.5rem;
+    /* border-radius: 1rem; */
+    padding: 0.2rem;
+    /* width: 38% !important; */
+    border: 1px solid gainsboro;
+    font-size: 0.7rem;
+    margin-top: 1rem !important;
+    bottom: 0;
+}
+
+
+
+#setmainworker{
+    padding: 0rem 0rem;
+    margin-top: 1rem;
+}
+/* #setworker :hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} */
+
+#setworker img{
+    height: 33vh !important;
+    border-radius: 0.5rem;
+}
+.setpro h1{
+    display: none !important;
+}
+
+/* #setworker span{
+    margin-bottom: 4rem !important; 
+    padding-bottom: -3rem;
+    background-color: aqua;
+} */
+
+
+
+
+@media(min-width:1024px) and (max-width:1700px){
+    #setUploadImgUser label{
+        width: 28%;
+    }
+}
+
+@media(min-width:992px) and (max-width:1024px){
+    #setUploadImgUser label{
+        width: 28%;
+    }
+}
+@media(min-width:768px) and (max-width:992px){
+    #setworker img{
+        height: 20vh !important;
+        border-radius: 0.5rem;
+    }
+}
+
+@media(min-width:280px) and (max-width:540px){
+    #setworker{
+        margin-top: 1rem;
+    }
+}

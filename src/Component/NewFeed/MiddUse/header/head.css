@@ -1,0 +1,255 @@
+.main {
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  padding: 0rem;
+  height: 15vh;
+  width: 100% !important;
+  z-index: 1;
+}
+
+.modal-content{
+  height: 70vh;
+}
+
+
+#setPostHead{
+  background-color: white;
+  height: 9vh;
+}
+#sendBTNPOSt{
+  cursor: pointer;
+}
+
+.header {
+  padding: 1rem 0rem;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+.header_profile {
+  width: 10% !important;
+  height: 6vh !important;
+  overflow: hidden;
+  margin-left: 1rem;
+}
+.header_profile img{
+  width: 3rem ;
+  height: 3rem;
+  border-radius: 50%;
+}
+.header_inp {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  height: 3.5vh;
+  margin-top: 0.5rem;
+  width: 90%;
+  padding: 0.5rem;
+}
+.ImgpopPOst{
+  text-transform: capitalize;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.4rem !important;
+  height: 3.5vh;
+  margin-top: 0.9rem;
+  width: 90%;
+  overflow:visible;
+  padding: 0.5rem;
+}
+.ImgpopPOst::placeholder{
+  font-size: 1.6rem;
+}
+.header_div {
+  border-radius: 5px;
+  /* height: 4vh; */
+}
+#PostCreatePP{
+  margin-top: 1.5rem;
+  height: 35vh;
+  border: 1px solid gainsboro;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.icon_divs {
+  width: 93%;
+  /* height: 100%; */
+  margin-top: -1rem;
+;
+  font-size: 20px;
+  display: flex;
+  /* padding-top: 0.5rem; */
+  justify-items: center;
+  justify-content: end;
+}
+#setNowFeed{
+  margin-top: 0rem !important;
+  margin-right: 2rem;
+}
+.setImgPostC{
+  font-size: 4rem;
+  /* background-color: gray !important; */
+}
+
+.setImgPostC img{
+  cursor: pointer !important;
+}
+.icon_divs input{
+  padding: 0rem;
+  font-size: 0.5rem;
+}
+.header_inp_pro {
+  width: 100% !important;
+  display: flex;
+  flex-wrap: wrap;
+}
+.header_inp_pro h1{
+  font-size: 1.2rem;
+  padding: 0.8rem 1rem 0rem 0rem;
+}
+.header_inp_pro input:focus {
+  outline: none;
+}
+.icon_inner {
+  width: 100%;
+  padding: 0rem; 
+  margin-left:2%;
+  display: flex;
+  display: flex;
+  justify-content: flex-end;
+}
+.extra {
+  justify-content: flex-end;
+}
+.extraa {
+  justify-content: center;
+}
+.custom-file-upload i{
+  font-size: 1.5rem !important;
+  padding: 0rem;
+  /* color: red; */
+}
+
+#PostPopImg {
+  width: 13%;
+  }
+#PostPopImg img{
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+
+}
+.custom-file-upload {
+  padding: 0px 2px;
+  margin-top: 0rem;
+  cursor: pointer;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+@media (min-width: 1025px) and (min-width: 1700px) {
+  .header_div {
+    padding: 0rem 4rem !important;
+  }
+  .header_div {
+    padding: 0rem 2.2rem !important;
+  }
+ 
+}
+
+@media (min-width: 992px) and (min-width: 1024px) {
+  .header_inp_pro input {
+    width: 85%;
+    height: 1.8rem;
+  }
+  .header_profile img{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+  } 
+  .header_div {
+    padding: 0rem 1.5rem;
+  }
+  #setNowFeed{
+    margin-top: 0.5rem !important;
+    /* background-color: aqua; */
+    margin-right: -0.9rem;
+  }
+  #setPostHead{
+    height: 12vh;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  #setPostHead{
+    margin-top: 1rem;
+    display: flex !important;
+  }
+  .header_inp_pro input {
+    width: 75%;
+  }
+  
+  .header_profile{
+    width: 20% !important;
+  }
+  .header_profile img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+  }
+  #setNowFeed{
+    margin-top: 0.5rem !important;
+    /* background-color: aqua; */
+    margin-right: 0.2rem;
+  }
+  #setPostHead{
+    height: 12vh;
+  }
+  
+ 
+}
+
+@media (min-width:280px) and (max-width:540px) {
+    .header_inp_pro input {
+      width: 70%;
+      margin-left: 1rem;
+      height: 1.8rem;
+    }
+    #setNowFeed{
+      margin-top: 1rem;
+      margin-right: -1.8rem;
+    }
+    #setPostHead{
+      height: 12vh;
+    }
+    .header_div {
+      padding: 0rem 2rem;
+      margin-left: 0.5rem;
+    }
+    .icon_divs {
+      width: 95%;
+    }
+    .main {
+      width: 93% !important;
+    }
+    .header_profile {
+      width: 20% !important;
+      height: 7vh !important;
+      overflow: hidden;
+      margin-left: 1rem;
+    }
+    .header_profile img{
+      width: 3rem ;
+      height: 3rem;
+      border-radius: 50%;
+    }
+    #setNowFeed{
+      margin-top: 0rem;
+    }
+  }
