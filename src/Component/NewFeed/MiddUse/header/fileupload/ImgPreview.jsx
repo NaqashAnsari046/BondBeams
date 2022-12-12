@@ -14,7 +14,6 @@ function ImgPreview({ PostCreateUp, icon, PostCreateUpFff, ProfileGet }) {
  
   
   const [CreatBoolean, setCreatBoolean] = useState(false);
-  // console.log('boolean', CreatBoolean);
   const [Description, setDescription] = useState({
     description: "",
   });

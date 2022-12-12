@@ -56,7 +56,7 @@ console.log(profile);
   return (
     <div className="exptext">
       <DialogInput open={open} setOpen={setOpen} ProfileGet={ProfileGet} />
-      <Stack direction='row' justifyContent='space-between' alignItems='center'>
+      <Stack direction='row' justifyContent='space-between' alignItems='center' id='experince' >
         <h2>Education</h2>
         <PlaylistAddIcon fontSize="large" sx={{cursor:'pointer'}} onClick={()=>setOpen(true)}/>
       </Stack>

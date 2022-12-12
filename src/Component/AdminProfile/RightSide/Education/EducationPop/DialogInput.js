@@ -2,6 +2,7 @@ import { Stack } from '@mui/material';
 import Dialog from '@mui/material/Dialog';
 import CloseIcon from '@mui/icons-material/Close';
 import { useState } from 'react';
+import './EduPop.css'
 const DialogInput = ({open, setOpen,ProfileGet}) => {
     const [expTitle, setExpTitle] = useState('')
   const [compName, setCompName] = useState('')
@@ -53,8 +54,8 @@ start_date
         onClose={()=>setOpen(false)}
         fullWidth
         sx={{' .MuiPaper-root':{
-            borderRadius:'23px',
-            padding:'10px'
+            borderRadius:'0px',
+            padding:'2.5rem'
         }}}
         aria-labelledby="alert-dialog-title"
         aria-describedby="alert-dialog-description"
@@ -78,7 +79,8 @@ start_date
                 </div>
                 <div className="mb-3 Experice_div">
                   <input
-                    className="col-6 tilte_ex mr-2"
+                  id='BorderLeft1'
+                    className="col-6 tilte_ex"
                     placeholder="Institute Name"
                     name="institute_name"
                     value={inputData.institute_name}

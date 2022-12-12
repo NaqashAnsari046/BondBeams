@@ -89,7 +89,7 @@ const PostBody = ({ getapi, NewFeedGetApi, ProfileGet }) => {
     return item
   });
 
-  // console.log('like news', data);
+  console.log('like news', NewFeedGetApi);
 
   // Delete Api
   const EduDeleteEvent = async (id) => {

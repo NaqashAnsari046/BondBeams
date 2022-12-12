@@ -53,7 +53,7 @@ start_date
         onClose={()=>setOpen(false)}
         fullWidth
         sx={{' .MuiPaper-root':{
-            padding:'10px'
+            padding:'2.5rem'
         }}}
         aria-labelledby="alert-dialog-title"
         aria-describedby="alert-dialog-description"
@@ -77,7 +77,7 @@ start_date
                 </div>
                 <div className="mb-3 Experice_div">
                   <input
-                    className="col-6 tilte_ex mr-2"
+                    className="col-6 tilte_ex mr-2 border-0"
                     placeholder="Company Name"
                     name="company_name"
                     value={inputData.company_name}

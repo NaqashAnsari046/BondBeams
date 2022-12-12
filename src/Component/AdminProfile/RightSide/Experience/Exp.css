@@ -3,15 +3,42 @@
   margin: 0;
   box-sizing: border-box;
 }
+#experince{
+  border-bottom: 0.1rem solid gainsboro;
+}
+#experince h2{
+  font-size: 1.2rem !important;
+  font-weight: 700;
+}
+
+
+
+
+
+
+
+#BorderLeft{
+  border: none !important;
+  border-left:  1px solid gainsboro !important;
+  border-radius: 0rem !important;
+  width: 50%;
+}
+
+
+
+
 .jobtitleExp{
   width: 50% !important;
   outline: none;
   border: none;
-  border-bottom: 1px solid gainsboro;
+  border-left: 1px solid gainsboro !important;
+  border-bottom:none !important;
 }
 #setIconExp{
   display: flex;
-  height: 3vh;
+  /* height: 3vh; */
+  justify-content: center;
+  align-items: center;
   font-size: 0.7rem !important;
 }
 .deleteicon{
@@ -58,7 +85,7 @@
 }
 .setcol10 {
   /* justify-content:space-around; */
-  width: 80%;
+  width: 80% !important;
   display: flex;
   justify-content: space-between;
   height: 6rem;
@@ -68,8 +95,8 @@
 }
 .setmainemp {
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0);
-  padding-top: 2rem;
-  margin-top: 1rem;
+  padding-top: 1rem !important;
+  /* margin-top: 1rem; */
   display: flex;
   /* background-color:chartreuse ; */
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */

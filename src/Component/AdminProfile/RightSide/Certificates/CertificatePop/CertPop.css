@@ -3,6 +3,12 @@
     border:  none;
 }
 
+.BorderLeft2{
+    border: 1px solid gainsboro !important;
+    border-radius: 0.7rem;
+    padding: 0rem 1rem;
+    /* background-color: aqua !important; */
+}
 
 .setPutPage{
     width: 100%;

@@ -27,7 +27,7 @@ const Edu = () => {
         );
         let data = await response.json();
         // setProfile(data.data)
-        console.log(data.data);
+        console.log('License Certificate: ',data.data);
     } catch (error) {
         console.log(error.message);
     }
@@ -57,7 +57,7 @@ console.log(profile);
   return (
     <div className="exptext">
       <DialogInput open={open} setOpen={setOpen} ProfileGet={ProfileGet} />
-      <Stack direction='row' justifyContent='space-between' alignItems='center'>
+      <Stack direction='row' justifyContent='space-between' alignItems='center' id='experince' >
         <h2>License & Certification</h2>
         <PlaylistAddIcon fontSize="large" sx={{cursor:'pointer'}} onClick={()=>setOpen(true)}/>
       </Stack>

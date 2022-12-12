@@ -51,8 +51,8 @@ const DialogInput = ({open, setOpen,ProfileGet}) => {
         onClose={()=>setOpen(false)}
         fullWidth
         sx={{' .MuiPaper-root':{
-            borderRadius:'23px',
-            padding:'10px'
+            borderRadius:'0px',
+            padding:'2.5rem'
         }}}
         aria-labelledby="alert-dialog-title"
         aria-describedby="alert-dialog-description"
@@ -69,8 +69,8 @@ const DialogInput = ({open, setOpen,ProfileGet}) => {
                     placeholder="Job Title"
                     name="experience_title"
                     value={inputData.experience_title}
-                  type='text'
-                  onChange={(e)=>setExpTitle(e.target.value)}
+                    type='text'
+                    onChange={(e)=>setExpTitle(e.target.value)}
                   />
                    <select
                    className="col-5 jobtitleExp"
@@ -86,18 +86,19 @@ const DialogInput = ({open, setOpen,ProfileGet}) => {
                 </div>
                 <div className="mb-3 Experice_div">
                   <input
-                    className="col-6 tilte_ex mr-2"
+                    className="col-6 border-0"
                     placeholder="Company"
                     name="company_name"
                     value={inputData.company_name}
-                  onChange={(e)=>setCompName(e.target.value)}
+                    onChange={(e)=>setCompName(e.target.value)}
                   />
                   <input
-                    className="col-5 tilte_ex"
+                    id='BorderLeft'
+                    className="col-5 tilte_ex border-0"
                     placeholder="company_address"
                     name="company_address"
                     value={inputData.company_address}
-                  onChange={(e)=>setAddress(e.target.value)}
+                    onChange={(e)=>setAddress(e.target.value)}
                   />
                   {/* <input className="col-6" id="title" placeholder="full time"   onChange={ExperianceEvent} /> */}
                  
@@ -138,9 +139,9 @@ const DialogInput = ({open, setOpen,ProfileGet}) => {
                 type="submit"
                 data-bs-dismiss="modal"
                 aria-label="Close"
-                className="btn btn-secondary col-12 "
+                className="btn btn-secondary col-12"
               >
-                Post
+                Submit
               </button>
             </div>
               </form>

@@ -46,8 +46,8 @@ const DialogInput = ({open, setOpen,ProfileGet}) => {
         onClose={()=>setOpen(false)}
         fullWidth
         sx={{' .MuiPaper-root':{
-            borderRadius:'23px',
-            padding:'10px'
+            borderRadius:'0px',
+            padding:'2.5rem'
         }}}
         aria-labelledby="alert-dialog-title"
         aria-describedby="alert-dialog-description"

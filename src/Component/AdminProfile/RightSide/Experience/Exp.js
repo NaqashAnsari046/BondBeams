@@ -104,9 +104,9 @@ console.log(profile);
       {/* <TextHead title={"experience"} icon={<ExpPop ProfileGet={ProfileGet} ExpUpdate={(e)=>setExpDete(e)} />}  /> */}
       {/* <TextHead title={"experience"} icon={}  /> */}
       <DialogInput open={open} setOpen={setOpen} ProfileGet={ProfileGet} />
-      <Stack direction='row' justifyContent='space-between' alignItems='center'>
+      <Stack direction='row' justifyContent='space-between' alignItems='center' id='experince' >  
         <h2>Experience</h2>
-        <PlaylistAddIcon fontSize="large" sx={{cursor:'pointer'}} onClick={()=>setOpen(true)}/>
+        <PlaylistAddIcon  fontSize="large" sx={{cursor:'pointer'}} onClick={()=>setOpen(true)}/>
       </Stack>
        {/* <ExpPop ProfileGet={ProfileGet} ExpUpdate={(e)=>setExpDete(e)} /> */}
       {/* {Exp.length>0 && (<ExpText ExpDatas={Exp} />)} */}
