@@ -1,0 +1,44 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#mainLan{
+  padding: 1rem;
+  margin: 1rem 0rem;
+  background-color: white;
+}
+.setbtnLan{
+  width: 100%;
+  display: flex !important;
+}
+button{
+  padding: 0.3rem 2rem;
+  margin: 1rem 1rem;
+  border: 1px solid gainsboro;
+  border-radius: 0.4rem;
+}
+
+@media(min-width:992px) and (max-width:1024px){
+  .setbtnLan button{
+      width: 20%;
+  }
+}
+@media(min-width:768px) and (max-width:992px){
+  .setbtnLan button{
+      width: 25%;
+  }
+}
+
+@media(min-width:280px) and (max-width:540px){
+  .setbtnLan button{
+      width: 40% !important;
+      display: block;
+      margin: 1rem 1rem !important;
+  }
+  .setbtnLan{
+      width: 100%;
+      display: block !important;
+  }
+}
+

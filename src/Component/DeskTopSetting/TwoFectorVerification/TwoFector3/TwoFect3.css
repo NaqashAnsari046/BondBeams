@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#TwoFec3{
+    width: 100% !important;
+    display: inline-flex;
+    justify-content: center;
+    padding: 2rem ;
+}
+
+#InnerTwoFec3{
+    text-align: center;
+    border-radius: 0.8rem;
+    width: 80%;
+    padding: 2rem;
+    box-shadow: 1px 5px 22px 1px rgb(151, 150, 150);
+}
+#InnerTwoFec3 h1{
+    text-align: start;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+#InnerTwoFec3 button{
+    background-color: black;
+    color: white;
+    padding: 0.3rem 3rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 2rem 0rem;
+}
+#InnerTwoFec3 p{
+    margin-top: 1rem;
+    text-align: start;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+@media(max-width:540px){
+    #TwoFec3{
+        padding: 0rem !important;
+        margin-bottom: 0.1rem;
+    }
+    #InnerTwoFec3{
+        width: 100%;
+        padding: 1rem;
+    }
+    #InnerTwoFec3 button{
+        margin: 1rem 0rem;
+    }
+    #InnerTwoFect2 label{
+        font-size: 1.1rem;
+        margin: 0.3rem 0rem 0.5rem 0rem;
+    }
+}
+
+@media(max-width:768px){
+    #TwoFec3{
+        margin-top: 1rem;
+        padding: 0rem;
+        margin-bottom: 1rem;
+    }
+    #InnerTwoFec3{
+        width: 100%;
+        padding: 1rem;
+    }
+}
+
+@media(max-width:1024px){
+    #TwoFec3{
+        padding: 1rem;
+        margin-bottom: 0.1rem;
+    }
+    #InnerTwoFec3{
+        width: 100%;
+        padding: 1rem;
+    }
+    #InnerTwoFect2 label{
+        font-size: 1.1rem;
+        margin: 0.3rem 0rem 0.5rem 0rem;
+    }
+}

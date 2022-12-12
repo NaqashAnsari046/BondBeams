@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.MainlestSide{
+    height: 90vh;
+    position: fixed;
+    width: 24%;
+
+}
+
+@media(min-width:1024px) and (max-width:1600px){
+    .MainlestSide{
+        padding-top: 0rem;
+    }  
+}
+
+@media(min-width:768px) and (max-width:912px){
+    .MainlestSide{
+        display: none;
+        height: 0vh;
+    }  
+}
+
+@media(min-width:280px) and (max-width:540px){
+    .MainlestSide{
+        display: none;
+        height: 0vh;
+    }  
+}

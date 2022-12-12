@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#selet{
+    width: 100%;
+    outline: none;
+    /* outline-offset: 1px; */
+}
+#DTPrivacy{
+    width: 100% !important;
+    padding: 2rem ;
+    display: flex;
+    justify-content: center;
+}
+
+#DTPrivacyInner{
+    text-align: center;
+    border-radius: 0.8rem;
+    width: 80%;
+    height: 63vh;
+    padding: 2rem;
+    box-shadow: 1px 5px 22px 1px rgb(151, 150, 150);
+}
+#DTPrivacyInner h1{
+    text-align: start;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+#DTPrivacyInner button{
+    background-color: black;
+    color: white;
+    padding: 0.3rem 3rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 2rem 0rem;
+}
+#PrivacyInner{
+    padding: 2rem;
+}
+#PrivacyInner label{
+    font-size: 1.1rem;
+    margin: 1.5rem 0rem 0.1rem 0rem;
+    font-weight: 600;
+}
+#PrivacyInner input{
+    width: 100%;
+    border: none;
+    align-items: flex-start;
+    justify-content: start;
+    text-align: start;
+    border-bottom: 1px solid gainsboro;
+}
+#PrivacyInner select{
+    border-bottom: 1px solid gainsboro !important;
+    outline: none;
+    border: none;
+}
+
+
+
+
+@media(min-width:1024px) and (max-width:1700px){
+    #DTPrivacy{
+        margin-top: 1rem;
+        padding: 0.5rem 0rem;
+    }
+    #DTPrivacyInner{
+        text-align: center;
+        width: 80%;
+        height: 70vh;
+        padding: 2rem;
+    }
+    #PrivacyInner{
+        padding: 0rem;
+    }
+    #PrivacyInner label{
+        margin: 0.4rem 0rem 0.1rem 0rem;
+    }
+    #DTPrivacyInner button{
+        margin: 1rem 0rem;
+    }
+}
+
+@media(min-width:768px) and (max-width:992px){
+    #DTPrivacy{
+        margin-top: 1rem;
+        padding: 1rem;
+        width: 67vh !important;
+        height: 86vh;
+        align-items: center;
+    }
+    #DTPrivacyInner{
+        text-align: center;
+        width: 100%;
+        padding: 2rem;
+        height: 60vh;
+    }
+    #DTPrivacyInner h1{
+        font-size: 2rem ;
+    }
+    #PrivacyInner{
+        padding: 0rem;
+    }
+    #PrivacyInner label{
+        margin: 1rem 0rem 0.5rem 0rem;
+        font-size: 1.6rem;
+    }
+}
+
+
+@media(min-width:280px) and (max-width:540px){
+    #DTPrivacy{
+        margin-top: 1rem;
+        padding: 2rem;
+    }
+    #DTPrivacyInner{
+        text-align: center;
+        width: 90%;
+        padding: 2rem;
+    }
+    #DTPrivacyInner{
+        text-align: center;
+        width: 100%;
+        height: 80vh;
+    }
+    #DTPrivacyInner h1{
+        font-size: 1.7rem ;
+    }
+    #PrivacyInner{
+        padding: 0rem;
+    }
+    #DTPrivacyInner button{
+        margin: 2rem 0rem !important;
+    }
+    #PrivacyInner label{
+        font-size: 1rem !important;
+        margin: 1.5rem 0rem 0.1rem 0rem !important;
+    }
+}

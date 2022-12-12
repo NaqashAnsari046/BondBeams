@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#UserBlock{
+    width: 100% !important;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem ;
+    height: 88vh !important;
+}
+
+#BlockU{
+    text-align: center;
+    border-radius: 0.8rem;
+    width: 80% !important;
+    height: 70vh !important;
+    padding: 2rem;
+    box-shadow: 1px 5px 22px 1px rgb(151, 150, 150);
+}
+#BlockU h1{
+    text-align: start;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+#BlockU button{
+    background-color: black;
+    color: white;
+    padding: 0.3rem 3rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 1rem 0rem;
+}
+#BlockU p{
+    margin-top: 1rem;
+    text-align: start;
+    font-size: 1rem;
+    font-weight: 600;
+}
+#hhhh{
+    width: 100%;
+    height: 60vh;
+    overflow: auto;
+}
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  #setUblockBTN{
+    margin-top: 3rem !important;
+  }
+#CardBlock{
+    margin-top: 1rem;
+    display: flex !important;
+    border-bottom: 1px solid gainsboro;
+    justify-content:space-between;
+    width: 100% !important;
+    padding: 1rem 0rem;
+}
+#ineerCardBlock{
+    padding-top: 0.5rem;
+    text-align:start;
+    display: flex!important;
+}
+#ineerCardBlock h3{
+    font-size: 0.8rem;
+    margin-bottom: -0.2rem;
+    margin-top: 0.4rem;
+    font-weight: 700;
+}
+#ineerCardBlock img{
+    width: 3rem;
+    height:3rem;
+    border-radius: 4rem;
+    margin-right: 1rem;
+}
+#ineerCardBlock span{
+    font-size: 0.8rem;
+    align-items: flex-end;
+}
+
+
+
+
+
+@media(min-width:1024px) and (min-width:1700px){
+    #UserBlock{
+        padding: 1rem;
+        margin-bottom: 0.1rem;
+    }
+    #BlockU{
+        width: 100%;
+        padding: 1rem;
+        height: 81vh;
+    }
+    #InnerTwoFect2 label{
+        font-size: 1.1rem;
+        margin: 0.3rem 0rem 0.5rem 0rem;
+    }
+    #setUblockBTN{
+        margin-top: 2rem !important;
+      }
+    #CardBlock{
+        width: 65%;
+    }
+    
+}
+
+@media(min-width:768px) and (max-width:992px){
+    #UserBlock{
+        padding: 0rem !important;
+        margin-bottom: 0.1rem;
+        width: 90% !important;
+    }
+    #BlockU{
+        height: 70vh;
+        width: 94%;
+        padding: 1rem;
+        margin-top: 1rem;
+    }
+    #BlockU h1{
+        font-size: 1.7rem;
+    }
+    #BlockU button{
+        margin: 1rem 0rem;
+        padding: 0.1rem 0.4rem; 
+    }
+    #setUblockBTN{
+        margin-top: 3rem !important;
+      }
+    #InnerTwoFect2 label{
+        font-size: 1.1rem;
+        margin: 0.3rem 0rem 0.5rem 0rem;
+    }
+    #CardBlock{
+        width: 100%;
+    }
+}
+
+@media(min-width:280px) and (max-width:540px){
+    #UserBlock{
+        padding: 0rem !important;
+        margin-bottom: 0.1rem;
+    }
+    /* #CardBlock{
+        margin-top: 1rem !important;
+    } */
+    
+    #BlockU{
+        height: 85vh !important;
+        width: 90%;
+        padding: 1rem;
+    }
+    #BlockU button{
+        margin: 1rem 0rem;
+        padding: 0.1rem 0.4rem; 
+    }
+    #setUblockBTN{
+        margin-top: 3rem !important;
+      }
+    #InnerTwoFect2 label{
+        font-size: 1.1rem;
+        margin: 0.3rem 0rem 0.5rem 0rem;
+    }
+    #CardBlock{
+        width: 100%;
+    }
+}

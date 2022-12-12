@@ -1,0 +1,115 @@
+#TopResendtly {
+  /* height: 54vh; */
+  overflow: hidden;
+  text-align: center;
+  height: 35vh;
+}
+
+#TopResendtly1 {
+  margin-right: 1rem;
+}
+
+#setToSearchFed img {
+  width: 3.5rem;
+  height: 3.5rem;
+  padding: 0.3rem;
+  border-radius: 3rem;
+  border: 1px solid gainsboro;
+}
+#setToSearchFed h2 {
+  font-weight: 700;
+  font-size: 0.7rem !important;
+}
+#setToSearchFed h4 {
+  font-size: 0.8rem !important;
+  margin-top: -0.4rem !important;
+}
+#setToSearchFed button {
+  text-align: center;
+  padding: 0.1rem 1rem !important;
+  background-color: black;
+  border-radius: 0.5rem;
+  color: white;
+  font-size: 0.8rem;
+  margin: 0.6rem 0rem 3rem 0rem;
+}
+#TopResendtly h3 {
+  font-size: 0.7rem;
+  padding: 0.7rem 1rem;
+}
+#setFeedRighjt {
+  padding: 0rem;
+  margin: 0rem;
+  /* height: 61.1vh; */
+}
+#setFeedRighjt h1 {
+  padding: 0.5rem 0rem;
+  font-size: 0.9rem !important;
+  font-size: 700;
+}
+
+#RecentlyScroll1 {
+  display: none;
+}
+
+@media (min-width: 1024px) and (max-width: 1600px) {
+  #setToSearchFed button {
+    text-align: center;
+    padding: 0.1rem 1rem !important;
+    background-color: black;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 0.8rem;
+    margin: 0.6rem 0rem 1rem 0rem;
+  }
+  #RecentlyScroll {
+    display: none;
+  }
+  #RecentlyScroll1 {
+    display: block !important;
+  }
+  #TopResendtly {
+    height: 21vh;
+   }
+}
+
+@media (min-width: 912px) and (max-width: 1024px) {
+  #setFeedRighjt h1 {
+    font-size: 0.8rem;
+  }
+  #TopResendtly {
+    margin-top: 1.5rem;
+    height: 23vh;
+    overflow: hidden;
+  }
+  #setToSearchFed {
+    height: 30vh;
+  }
+  #RecentlyScroll {
+    display: none;
+  }
+
+  #RecentlyScroll1 {
+    display: block !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 912px) {
+  #setToSearchFed {
+    margin-top: 1rem;
+    border-bottom: 1px solid gainsboro;
+  }
+  #setToSearchFed button {
+    margin: 0.6rem 0rem 1.5rem 0rem;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 540px) {
+  #setToSearchFed {
+    margin-top: 1rem;
+    border-bottom: 1px solid gainsboro;
+  }
+  #setToSearchFed button {
+    margin: 0.6rem 0rem 1.5rem 0rem;
+  }
+}

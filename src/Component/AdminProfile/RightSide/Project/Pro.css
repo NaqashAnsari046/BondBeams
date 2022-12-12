@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#setProjectbtn{
+    display: block;
+    background-color: aqua;
+}
+.deleteicon{
+    font-size: 0.8rem;
+}
+#setCertyLicence{
+    display: flex;
+    justify-content: space-between;
+}
+#MainCerti{
+    background-color: white;
+    padding: 1rem;
+}
+#setCertify{
+    display: flex;
+    padding: 0rem;
+    justify-content: center;
+    justify-items: center;
+    /* width: 10%; */
+    height: 15vh;
+}
+#setMainCerit img{
+    border-radius: 4rem;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+
+#setMainCerit{
+    padding: 1rem 1rem;
+    text-transform: capitalize;
+    margin-top: 1rem;
+    border-bottom:  1px solid gainsboro;
+}
+#setMainCerit h1{
+    font-size: 0.9rem;
+}
+#setMainCerit span{
+    font-weight: 700;
+}
+#setinnerCerti{
+    display: flex;
+    justify-content: space-between;
+}
+#setCertyLicence button{
+    margin-top: 1rem;
+    /* background-color: black; */
+    padding: 0rem 2rem;
+    height: 3.5vh;
+    border-radius: 0.5rem;
+    /* color: white; */
+    font-size: 0.8rem !important;
+    font-weight: 600;
+}
+
+#projectBtn{
+    margin-top: 1rem;
+    /* background-color: black; */
+    padding: 0rem 2rem;
+    height: 3.5vh;
+    border-radius: 0.5rem;
+    border: 1px solid gainsboro;
+    /* color: white; */
+    font-size: 0.8rem !important;
+    font-weight: 600;
+}
+#setMainCerit h6{
+    color: gainsboro;
+    font-size: 0.9rem !important;
+    /* margin-top: -1rem !important; */
+}
+#setspanprooject{
+    color: gainsboro !important;
+    font-size: 0.8rem;
+    font-weight: 100;
+}
+
+@media(min-width:1024px) and (max-width:1600px){
+    #setCertyLicence{
+        width: 88%;
+        margin-left: 1rem;
+    }
+}
+
+@media(min-width:992px) and (max-width:1024px){
+    #setCertyLicence{
+        width: 88%;
+        margin-left: 1rem;
+    }
+    #setCertyLicence button{
+        height: 5vh;
+    }
+}
+
+@media(min-width:768px) and (max-width:992px){
+    #setCertyLicence{
+        width: 83%;
+        margin-left: 2rem;
+    }
+}
+
+@media(min-width:280px) and (max-width:540px){
+    #setinnerCerti button{
+        display: block;
+    }
+    #setMainCerit h6{
+        margin-top: -0.2rem !important;
+    }
+    #setCertyLicence{
+        width: 75%;
+        margin-left: 0rem;
+        display: block;
+    }
+    #setMainCerit{
+        padding: 1rem 0rem;
+    }
+    #setMainCerit img{
+        border-radius: 4rem;
+        width: 3rem;
+        height: 3rem;
+    }
+}
+
+

@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#ProfileRighte{
+    padding: 0rem 6rem;
+}   
+.setMain{
+    padding: 2rem 1rem;
+    background-color: #E5E5E5;
+}
+#setworker img{
+    width:100%;
+    height: 40vh;
+    border-radius: 0.5rem;
+}
+
+@media(min-width:1024px) and (max-width:1600px){
+    #ProfileRighte{
+        padding: 0rem 3rem;
+    } 
+}
+
+@media(min-width:992px) and (max-width:1024px){
+    #ProfileRighte{
+        padding: 0rem 1.5rem;
+    } 
+}
+
+@media(min-width:768px) and (max-width:992px){
+    #ProfileRighte{
+        padding: 0rem 1.5rem;
+    } 
+}
+
+@media(min-width:280px) and (max-width:540px){
+    #ProfileRighte{
+        padding: 0rem 1rem;
+    } 
+}
+
+

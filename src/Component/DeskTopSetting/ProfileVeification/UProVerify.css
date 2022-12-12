@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#UserVerifySeting textarea{
+    height: 20vh;
+}
+#verifiProfile{
+    margin-top: 2rem;
+    border: 1px solid gainsboro;
+    width: 45%;
+}
+#verifiProfile label{
+    font-size: 2rem;
+    padding: 0rem !important;
+    height: 0.2rem !important; 
+}
+
+#setVerifySeySeting{
+    padding: 2rem;
+    border: 1px solid gainsboro;
+}
+#setImgUser{
+    border-radius: 0.5rem;
+    align-items: flex-start;
+    justify-content: end;
+    margin: 0.4rem 0rem 0rem 0.7rem;
+    padding: 0.3rem 1rem;
+    width: 40%;
+    border: 1px solid gainsboro; 
+}
+
+#setUPRofile{
+    padding: 0rem 0rem !important;
+    margin: 1rem 0rem;
+}
+
+#lastUsersetting{
+    margin-top: 2rem;
+    width: 100% !important;
+    display: flex !important;
+    justify-content: space-around !important;
+}
+#lastUsersetting input{
+    border: 1px solid gainsboro;
+    outline: none;
+}
+#setIdCard{
+    margin-left: 6.5rem;
+}
+
+
+#UProVerify{
+    width: 100% !important;
+    display: inline-flex;
+    justify-content: center;
+    padding: 2rem ;
+}
+
+#ProVerify{
+    text-align: start;
+    border-radius: 0.8rem;
+    width: 80%;
+    padding: 3rem 2rem;
+    box-shadow: 1px 5px 22px 1px rgb(151, 150, 150);
+    height: 63vh;
+
+}
+#ProVerify h1{
+    text-align: start;
+    font-size: 1.2rem;
+
+}
+#ProVerify button{
+    background-color: black;
+    color: white;
+    padding: 0.3rem 3rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+
+::-webkit-scrollbar {
+    width: 12px;
+    
+  }
+  #setUblockBTN{
+     border-radius: 0.5rem;
+     right: 2.7rem;
+  }
+#CardBlock{
+    margin-top: 1rem;
+    display: flex !important;
+    border-bottom: 1px solid gainsboro;
+    justify-content:space-between;
+    width: 60%;
+    padding: 1rem 0rem;
+
+}
+
+
+
+@media(max-width:540px){
+    #UProVerify{
+        padding: 0rem !important;
+        margin-bottom: 0.1rem;
+    }
+    #lastUsersetting{
+        display: flex;
+        flex-direction:column;
+        margin-top: 0rem; 
+    }
+    #lastUsersetting input{
+        width: 100% !important;
+        margin-top: 1rem;
+    }
+    #ProVerify{
+        width: 100%;
+        height: 100vh !important;
+        padding: 1rem;
+    }
+    #ProVerify button{
+        margin: 1rem 0rem;
+        padding: 0.1rem 0.4rem; 
+    }
+    #setUblockBTN{
+        margin-top: 3rem !important;
+      }
+    #InnerTwoFect2 label{
+        font-size: 1.1rem;
+        margin: 0.3rem 0rem 0.5rem 0rem;
+    }
+    #setImgUser{
+        width: 100%;
+        margin-left: 0rem;
+    }
+    #setVerifySeySeting{
+        padding: 1rem;
+    }
+}
+
+@media(min-width:1024px) and (max-width:1700px) {
+    #UProVerify{
+        padding: 1rem;
+        margin-bottom: 0.1rem;        
+    }
+    #ProVerify{
+        width: 90%;
+        padding: 2rem;
+        height: 80vh;
+    }
+    
+    #setUblockBTN{
+        margin-top: 2rem !important;
+      }
+      #setUPRofile{
+        padding: 0rem !important;      
+        margin: 0rem;  
+      }
+    #UserVerifySeting{
+        margin-top: 1rem;
+    }
+    #setVerifySeySeting{
+        margin-top: 1rem;
+    }
+    #setImgUser{
+        width: 40%;
+        margin-left: 0.8rem;
+    }
+    #lastUsersetting{
+        display: block;
+        margin-top: 0rem;
+    }
+    #lastUsersetting input{
+        margin-top: 1rem;
+        padding: 0.2rem;
+    }
+    
+}
+
+@media(min-width:992px) and (max-width:1025px) {
+    #UProVerify{
+        width: 70% !important;
+        padding: 1rem;
+        margin-bottom: 0.1rem;   
+        justify-content:center;    
+    }
+    #ProVerify{
+        width: 90%;
+        padding: 2rem;
+        height: 80vh;
+    }
+    #setVerifySeySeting{
+        padding: 1rem;
+    }
+
+}
+
+@media(min-width:768px) and (max-width:992px){
+    #setVerifySeySeting{
+        padding: 1rem;
+    }
+    #UProVerify{
+        align-items: center;
+        height: 80vh;
+        padding: 0rem !important;
+        margin-bottom: 0.1rem;
+    }
+    #ProVerify{
+        height: 65vh;
+    }
+    
+    #ProVerify button{
+        margin: 1rem 0rem;
+        padding: 0.1rem 0.4rem; 
+    }
+    #setUblockBTN{
+        margin-top: 3rem !important;
+      }
+      #lastUsersetting{
+        display: flex;
+        flex-direction:column; 
+    }
+    #lastUsersetting input{
+        margin-top: 1rem;
+        padding: 0.2rem;  
+        width:90% ;
+    }
+   
+}
+
+@media(min-width:280px) and (max-width:540px){
+    #UProVerify{
+        padding: 1rem !important;
+        margin-bottom: 0.1rem;
+    }
+    #setVerifySeySeting{
+        margin-top: 1rem;
+    }
+    #lastUsersetting{
+        display: flex;
+        flex-direction:column;
+        margin-top: 0rem; 
+    }
+    #lastUsersetting input{
+        width: 100% !important;
+        margin-top: 1rem;
+    }
+    #ProVerify{
+        width: 100%;
+        height: 100vh !important;
+        padding: 1rem;
+    }
+    #ProVerify button{
+        margin: 1rem 0rem;
+        padding: 0.1rem 0.4rem; 
+    }
+    #setUblockBTN{
+        margin-top: 3rem !important;
+      }
+    #InnerTwoFect2 label{
+        font-size: 1.1rem;
+        margin: 0.3rem 0rem 0.5rem 0rem;
+    }
+    #setImgUser{
+        width: 100%;
+        margin-left: 0rem;
+    }
+    #setVerifySeySeting{
+        padding: 1rem;
+    }
+    #setIdCard{
+        margin-left: 0rem;
+    }
+}

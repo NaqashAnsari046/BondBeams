@@ -1,0 +1,23 @@
+#setMainalbum{
+    display: flex;
+}
+
+#SetImgAlbum img{
+    display: flex;
+    margin-top: 0.9rem;
+    border-radius: 0.2rem;
+    height: 19vh;
+    cursor: pointer;
+}
+
+@media(min-width:768px) and (max-width:992px){
+    #SetImgAlbum img{
+        height: 13vh ;
+    }
+}
+
+@media(min-width:280px) and (max-width:540px){
+    #SetImgAlbum img{
+        height: 23vh ;
+    }
+}

@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#forgetpass{
+    width: 100% !important;
+    display: inline-flex;
+    justify-content: center;
+    padding: 2rem ;
+}
+
+#innerForgetPassword{
+    padding: 1rem;
+}
+
+#innerForget{
+    text-align: center;
+    border-radius: 0.8rem;
+    margin-top: 4rem;
+    width: 50%;
+    padding: 3rem !important;
+    box-shadow: 1px 5px 22px 1px rgb(151, 150, 150);
+}
+#innerForget h1{
+    text-align: start;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+#innerForget button{
+    background-color: black;
+    color: white;
+    padding: 0.3rem 3rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 2rem 0rem;
+}
+#innerForget p{
+    margin-top: 1rem;
+    text-align: start;
+    font-size: 0.8rem;
+    /* font-weight: 600; */
+}
+
+#setLabPass label{
+    font-size: 0.8rem !important;
+    font-weight: 700;
+    margin: 0.3rem 0rem 0.5rem 0rem;
+}
+#setLabPass input{
+    width: 100%;
+    border-bottom:1px solid gainsboro !important ;
+    border: none;
+    outline: none;
+}
+
+
+
+
+@media(min-width:768px) and (max-width:992px){
+    #forgetpass{
+        margin-top: 1rem;
+        padding: 0rem;
+        margin-bottom: 1rem;
+    }
+    #innerForgetPassword{
+        width: 100%;
+        padding: 1rem;
+    }
+    #innerForget{
+        width: 80% !important;
+    }
+    #innerForgetPassword label{
+        font-size: 1.2rem !important;
+        padding-bottom: 1rem;
+        margin: 2rem 0rem 0.1rem 0rem !important;
+    }
+}
+
+@media(max-width:1024px){
+    #forgetpass{
+        padding: 1rem;
+        margin-bottom: 0.1rem;
+    }
+    #innerForget{
+        width: 100%;
+        padding: 1rem;
+    }
+    #innerForgetPassword label{
+        font-size: 1.1rem;
+        margin: 0.3rem 0rem 0.5rem 0rem;
+    }
+#innerForget{
+    width: 60%;
+}
+}
+
+
+@media(min-width:280px) and (max-width:540px){
+    #forgetpass{
+        padding: 0rem !important;
+        margin-bottom: 0.1rem;
+    }
+    #innerForget{
+        width: 96%;
+        padding: 1rem !important;
+    }
+    #innerForget button{
+        margin: 1rem 0rem;
+    }
+    #innerForget label{
+        font-size: 1.1rem;
+        margin: 0.3rem 0rem 0.5rem 0rem;
+    }
+    #innerForgetPassword{
+        padding: 0rem !important;
+    }
+}

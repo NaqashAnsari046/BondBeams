@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#sessions{
+    width: 100% !important;
+    display: inline-flex;
+    justify-content: center;
+    padding: 2rem ;
+}
+
+#sessionsnner{
+    text-align: start;
+    border-radius: 0.8rem;
+    width: 80%;
+    height: 63vh;
+    padding: 2rem;
+    box-shadow: 1px 5px 22px 1px rgb(151, 150, 150);
+}
+#sessionsnner h1{
+    text-align: start;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+#sessionsnner button{
+    background-color: black;
+    color: white;
+    padding: 0.6rem 3rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 1rem 0rem;
+    border-radius: 0.5rem;
+}
+
+#sessionsnner{
+    padding: 2rem;
+}
+#innerActive{
+    line-height: 7vh;
+    /* color: red; */
+
+}
+.details{
+   line-height: 8vh;
+   font-weight: light;
+}
+/* @media(max-width:540px){
+    #Cpassword{
+        margin-top: 1rem;
+        padding: 0.5rem 0rem;
+    }
+    #CPasswordInner{
+        width: 100%;
+        padding: 2rem;
+    }
+    #CPasswordInner button{
+        margin: 2rem 0rem !important;
+        padding: 0.5rem 2rem;
+    }
+    #CpasswordInner{
+        padding: 0rem;
+    }
+}
+
+@media(max-width:768px){
+    #Cpassword{
+        margin-top: 1rem;
+        padding: 0.5rem 0rem;
+    }
+    #CPasswordInner{
+        width: 100%;
+        padding: 2rem;
+    }
+    #CpasswordInner{
+        padding: 0rem;
+    }
+}
+*/
+
+@media(min-width:1024px) and (max-width:1700px){
+    #sessions{
+        width: 73% !important;
+        margin-top: 1rem;
+        padding: 1rem;
+    }
+    #sessionsnner{
+        width: 85%;
+        height: 80vh;
+        padding: 2rem !important;
+    }
+    #sessionsnner button{
+        margin: 1rem 0rem;
+    }
+    #sessionsnner{
+        padding: 0rem;
+    }
+} 
+
+@media(min-width:768px) and (max-width:992px){
+    #sessions{
+        width: 90% !important;
+        height: 80vh;
+        align-items: center;
+        margin-top: 1rem;
+        padding: 1rem;
+    }
+    #sessionsnner{
+        width: 100%;
+        height: 65vh;
+        padding: 2rem !important;
+    }
+
+}
+
+@media(min-width:280px) and (max-width:540px){
+    #sessions{
+        width: 100% !important;
+        margin-top: 1rem;
+        padding: 1rem;
+    }
+    #sessionsnner{
+        width: 100%;
+        height: 78vh;
+        padding: 2rem !important;
+    }
+
+}

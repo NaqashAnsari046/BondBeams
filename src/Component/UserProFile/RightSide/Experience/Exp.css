@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.exptext{
+    text-transform: capitalize;
+    padding: 1rem;
+    background-color: white;
+    margin-top: 1.5rem;
+}
+#empinner{
+    align-items: flex-end;
+    text-align: end;
+    height: 4rem;
+    padding: 0rem;
+}
+#empinner img{
+    width: 4rem;
+    border-radius: 4rem;
+    height: 4rem;
+    padding: 0rem;
+    border: 1px solid gainsboro;
+}
+.setcol10 h1{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.setcol10 p{
+    font-size: 0.9rem;
+    margin: 0rem;
+}
+
+.setcol10 span{
+    padding-top: -2rem;
+    display: block;
+    color: gainsboro;
+    font-size: 0.8rem;
+}
+.setcol10{
+    height: 6rem;
+    align-items: flex-start !important;
+    text-transform: capitalize;
+}
+.setmainemp{
+    padding: 1rem 1rem;
+}
+
+@media(max-width:540px){
+    #empinner{
+        padding: 0rem;
+    }
+    .setcol10 h1{
+        font-size: 0.8rem;
+    }
+    .setcol10 span{
+        font-size: 0.7rem;
+    }
+    #empinner img{
+        width: 90%;
+        height: 4rem;
+        padding: 0rem 0rem;
+        border-radius: 4rem;
+        margin: 0rem 0rem;
+        border: 1px solid gainsboro;
+    }
+}
+

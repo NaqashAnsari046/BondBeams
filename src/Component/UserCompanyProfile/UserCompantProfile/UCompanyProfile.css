@@ -1,0 +1,540 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+#MainUComponentPro {
+  /* padding-top: 1rem; */
+  padding: 1rem 2rem;
+  background-color: #e5e5e5;
+}
+#MainRightUserCompanyProfile {
+  padding: 0rem 2rem;
+}
+
+/* about */
+#MainUComapnyAbout {
+  padding: 2rem;
+  background-color: white;
+  border-top-left-radius: 0.7rem;
+}
+#UCProfileAbout h1 {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+#UCProfileAbout h2 {
+  font-size: 1.1rem;
+  font-weight: 100;
+}
+
+/* Project */
+
+#MainUCompanyProject {
+  margin-top: 1rem;
+  padding: 2rem;
+  background-color: white;
+}
+#mainInnerUCompanyProject {
+  margin-top: 1.5rem;
+  padding: 2rem 0.5rem;
+  border: 1px solid gainsboro;
+}
+#UcompanyIMg img {
+  padding: 0rem;
+  border: 1px solid gainsboro;
+  padding: 0.1rem;
+  border-radius: 3rem;
+  width: 4.5rem;
+  height: 4.5rem;
+}
+#UCompanyProject h1 {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+#UCompanyProject h3 {
+  padding-top: 0rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+#UCompanyProject h4 {
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-top: -0.4rem;
+}
+
+#UCompanyProject h5 {
+  font-size: 0.8rem;
+  margin-top: -0.4rem;
+  font-weight: 500;
+}
+#UcomapanyprojectGallary img {
+  height: 5rem !important;
+}
+
+/* Recent & Company Post */
+
+#MainUCompanyRecent {
+  margin-top: 1rem;
+  padding: 2rem;
+  background-color: white;
+}
+
+#UCompanyRecent h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+#UCcompanyRecently {
+  width: 95%;
+  margin-left: 1rem;
+  padding: 0.5rem;
+}
+#innerUCompanyRecenty {
+  padding: 0.8rem;
+  box-shadow: 1px 1px 2px 1px rgb(151, 150, 150);
+}
+#innerUCompanyRecenty h2 {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+#innerUCompanyRecenty p {
+  font-size: 0.8rem;
+}
+#innerUCRecentltyspan {
+  width: 100%;
+  display: flex;
+  padding: 0rem 0rem !important;
+  justify-content: space-between !important;
+}
+#innerUCRecentltyspan h6 {
+  font-size: 0.8rem;
+  padding: 0rem;
+}
+#innerUCRecentltyLink {
+  width: 100%;
+  /* margin-top: 1rem; */
+  display: flex;
+  justify-content: space-between !important;
+}
+#UcompanyLink {
+  background-color: black;
+  color: white;
+  font-size: 0.7rem;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  text-transform: capitalize;
+  border-radius: 0.5rem;
+}
+#innerUCompanyRecenty h5 {
+  margin-top: 1.5rem;
+  color: gainsboro;
+  font-size: 1rem;
+}
+
+/* Company Post */
+#mainInnerUCompanyPost {
+  /* margin-top: 0.3rem; */
+  padding: 0.7rem 0rem;
+  background-color: #e5e5e5;
+}
+
+/* 
+#UcompanyIMgPost{
+    background-color: blueviolet;
+} */
+
+#UcompanyIMgPost img {
+  padding: 0rem;
+  border: 1px solid gainsboro;
+  padding: 0.1rem;
+  border-radius: 3rem;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+#setUserCompanyCrudPost {
+  display: flex !important;
+  justify-content: space-between;
+  text-transform: capitalize;
+  margin-left: -0.6rem;
+}
+#setUserCompanyCrudPost h3 {
+  font-size: 1rem;
+  margin-top: 0.4rem;
+  font-weight: 700;
+}
+#setUserCompanyCrudPost h5 {
+  font-size: 0.8rem;
+  margin-top: -0.6rem;
+}
+#setUCPost {
+  padding: 0rem;
+}
+
+#UcomapanyprojectGallary img {
+  margin-top: 1rem;
+  width: 100%;
+  padding: 0.1rem;
+  border-radius: 0.3rem;
+  border: 1px solid gainsboro;
+}
+
+#setUserCompanyCrud {
+  display: flex !important;
+  justify-content: space-between;
+  margin-left: 0.4rem;
+}
+
+#setUserCompanyCrud h3{
+  font-size: 0.9rem;
+  font-weight: 700 !important;
+}
+
+#setUcompanyRecently {
+  /* box-shadow: 1px 0.5px 1px 1px rgb(151, 150, 150); */
+  background-color: #e5e5e5;
+  padding: 1rem;
+}
+#setUcompanyRecently h1{
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+#setUcompanyPost img {
+  width: 100%;
+  height: 33vh;
+  border-radius: 0.5rem;
+}
+#setUcompanyPost p {
+  padding-left: 0.6rem;
+}
+
+/* similar omapnr */
+
+.setmainUCINTEr {
+  padding: 1rem;
+  border-top-right-radius: 0.7rem;
+  background-color: white;
+}
+.setmainUCINTEr h1{
+  font-size: 1.1rem !important;
+  font-weight: 700;
+}
+
+#MainsimilarUCompany h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+#similarUCompany {
+  padding: 0rem;
+  text-align: center;
+}
+#innerSimilarUCompany {
+  margin-top: 1rem;
+  padding: 1rem 0rem;
+  border-bottom: 1px solid gainsboro;
+}
+#similarUCompany img {
+  border: 1px solid gainsboro;
+  padding: 0.1rem;
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 3rem;
+}
+#innerUCompanyTexty h1 {
+  font-size: 0.9rem !important;
+  font-weight: 700;
+}
+.UCTimeLoc {
+  width: 100%;
+  padding-right: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+.UCTimeLoc span {
+  font-size: 1rem;
+  font-weight: 600 !important;
+}
+.UCTimeLoc1 {
+  width: 100%;
+  margin-top: 1rem;
+  padding-right: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+#UCompanyfolow {
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  text-transform: capitalize;
+  border-radius: 0.5rem;
+}
+
+.textUCproject {
+  margin-left: -1.5rem !important;
+}
+
+@media (min-width: 1024px) and (max-width: 1700px) {
+  #UCompanyProject h1 {
+    font-size: 1.5rem;
+  }
+  #UCompanyProject h2 {
+    font-size: 1.1rem;
+  }
+  #UCProfileAbout h1 {
+    font-size: 1.5rem;
+  }
+  #UCProfileAbout h2 {
+    font-size: 1.1rem;
+  }
+  #mainInnerUCompanyProject {
+    padding: 1rem 0rem;
+  }
+  #UCompanyProject h3 {
+    padding-top: 0rem;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  #UcompanyIMg img {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  #innerUCompanyRecenty {
+    padding: 0.8rem;
+  }
+  #innerUCompanyRecenty h2 {
+    font-size: 0.7rem;
+    font-weight: 700;
+  }
+  #innerUCompanyRecenty p {
+    font-size: 0.7rem;
+  }
+  #innerUCRecentltyspan {
+    width: 100%;
+    display: flex;
+    padding: 0rem 0rem !important;
+    justify-content: space-between !important;
+  }
+  #innerUCRecentltyspan h6 {
+    font-size: 0.5rem !important;
+    padding: 0rem;
+  }
+  #UcompanyLink {
+    background-color: black;
+    color: white;
+    font-size: 0.5rem;
+    padding: 0.3rem 1rem;
+  }
+  #innerUCompanyRecenty h5 {
+    margin-top: 1rem;
+    color: gainsboro;
+    font-size: 0.6rem;
+  }
+  #setUserCompanyCrudPost h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  .textUCproject {
+    margin-left: 0rem !important;
+  }
+
+  #similarUCompany img {
+    border: 1px solid gainsboro;
+    padding: 0.1rem;
+    width: 4rem !important;
+    height: 4rem !important;
+    border-radius: 3rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+  #mainInnerUCompanyProject {
+    padding: 1rem 0rem;
+  }
+  .textUCproject {
+    padding-left: 2.1rem;
+  }
+  #UCompanyProject h3 {
+    padding-top: 0rem;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  #UcompanyIMg img {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  #innerUCompanyRecenty {
+    padding: 0.6rem;
+  }
+  #innerUCompanyRecenty h2 {
+    font-size: 0.7rem;
+    font-weight: 700;
+  }
+  #innerUCompanyRecenty p {
+    font-size: 0.7rem;
+  }
+  /* //// */
+
+  #UcompanyLink {
+    background-color: black;
+    color: white;
+    font-size: 0.7rem;
+    padding: 0.5rem 1rem;
+  }
+  #innerUCompanyRecenty h5 {
+    margin-top: 1rem;
+    color: gainsboro;
+    font-size: 0.9rem;
+  }
+
+  #setUserCompanyCrudPost {
+    margin-left: -0.4rem;
+  }
+  #setUserCompanyCrudPost h3 {
+    font-size: 0.8rem;
+    font-weight: 700;
+  }
+  #setUserCompanyCrudPost h5 {
+    font-size: 0.8rem;
+    margin-top: -0.3rem;
+  }
+  #similarUCompany img {
+    border: 1px solid gainsboro;
+    padding: 0.1rem;
+    width: 3.5rem !important;
+    height: 3.5rem !important;
+    border-radius: 3rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  #UCompanyProject h3 {
+    padding-top: 0rem;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  #UcompanyIMg img {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+  #setUserCompanyCrudPost {
+    margin-left: 0.7rem;
+  }
+  #setUserCompanyCrudPost h3 {
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+    font-weight: 700;
+  }
+  #setUserCompanyCrudPost h5 {
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+    margin-top: -0.2rem;
+  }
+  #MainUCompanyRecent {
+    padding: 1rem;
+    /* background-color: aqua; */
+  }
+  #similarUCompany img {
+    border: 1px solid gainsboro;
+    padding: 0.1rem;
+    width: 90%;
+    border-radius: 0rem;
+  }
+  #MainUComponentPro {
+    padding: 1rem 1rem;
+  }
+  #innerUCompanyTexty{
+    width: 100%;
+  }
+  #innerUCompanyTexty h1 {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+  }
+  #innerUCompanyTexty p{
+    width: 100% !important;
+    font-size: 1.1rem;
+  }
+  .UCTimeLoc{
+    display: flex;
+  }
+  .UCTimeLoc span{
+    font-size: 0.7rem !important;
+    font-weight: 700;
+  }
+  #setUserCompanyCrud{
+    margin-left: 0.2rem;
+  }
+  #setUCPost {
+    margin-top: 1rem;
+    background-color:#e5e5e5;
+    padding: 1rem !important;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 540px) {
+  #MainUComponentPro {
+    /* padding-top: 1rem; */
+    width: 100% !important;
+    padding: 1rem 1rem;
+    /* background-color:red ; */
+  }
+  #UCompanyProject h3 {
+    padding-top: 0rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+  #UcompanyIMg img {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+  #setUCPost {
+    /* margin-top: 1rem; */
+    padding: 0.7rem;
+  }
+  #UCcompanyRecently {
+    margin-left: 0.4rem;
+  }
+  #similarUCompany img {
+    width: 3rem !important;
+    height: 3rem !important;
+  }
+  .setmainUCINTEr {
+    margin-top: 1rem;
+  }
+  #UcompanyIMgPost img {
+    width: 3rem;
+    height: 3rem;
+  }
+  #MainUComapnyAbout {
+    padding: 0.5rem;
+  }
+  #UCProfileAbout h2 {
+    font-size: 1.2rem;
+    padding: 0.6rem;
+  }
+  #MainUCompanyProject {
+    margin-top: 1rem;
+    padding: 0.8rem;
+  }
+  #mainInnerUCompanyProject {
+    padding: 1rem 0rem !important;
+  }
+  #MainUCompanyRecent {
+    padding: 0.5rem !important;
+    /* background-color: aqua; */
+  }
+  #setUserCompanyCrudPost {
+    margin-left: -0.1rem;
+  }
+  #MainRightUserCompanyProfile {
+    padding: 0rem 0.8rem;
+  }
+
+  #setUCPost {
+    margin-top: 1rem;
+    background-color:#e5e5e5;
+    padding: 1rem !important;
+  }
+}

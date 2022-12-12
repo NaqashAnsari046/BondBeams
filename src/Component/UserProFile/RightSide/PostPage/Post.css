@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.comment1{
+    padding: 0.7rem;
+}
+
+#setComntImg1{
+    padding: 0rem;
+    text-align: center;
+}
+#setComntImg1 img{
+    width:2rem;
+    height: 2rem;
+    border-radius: 3rem;
+    margin-top: 0.4rem;
+}
+#setInutCommen1{
+    padding: 0rem;
+    padding-top: 0.6rem;
+    justify-items: center;
+}
+#setInutCommen1 button{
+    padding: 0.1rem 2rem;
+    background-color: black;
+    color: white;
+    margin-left: 0.5rem;
+    border-radius: 0.5rem;
+}
+#setInutCommen1 input{
+    width: 87%;
+    border-radius: 0.5rem;
+    padding: 0.2rem 1rem;
+    border:  1px solid gainsboro;
+}
+#setInutCommen1 input:focus{
+    outline: none;
+}
+
+.mainPost{
+    background-color:white;
+    text-transform: capitalize;
+}
+#setAdminProfile{
+    padding: 0.8rem 0rem;
+    border-bottom: 1px solid gainsboro;
+}
+#setPagePost{
+    padding: 0rem;
+    text-align: end;
+}
+#setPagePost img{
+    border-radius: 4rem;
+    width: 3rem;
+    height: 3rem;
+    padding: 0rem;
+}
+#setTextPost h1{
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+#setTextPost h3{
+    font-size: 1rem;
+    color: gainsboro;
+    font-family: italic;
+    margin-top: -0.6rem;
+}
+#setAdmintPost{
+    background-color: white;
+    margin-top: 1rem;
+}
+
+#setAdmintPost p{
+    font-size: 0.7rem;
+    overflow: hidden;
+    padding: 0.5rem 1.1rem;
+    height: 3.5rem;
+    background-color: aqua;
+}
+.bodyimg{
+    padding: 0rem 1.1rem;
+    width: 100%;
+}
+.bodyimg img{
+    width: 100%;
+    height: 40vh;
+    border-radius: 0.5rem !important;
+}
+
+.imgBar{
+    width: 100% !important;
+    display: flex;
+    margin: 1.5rem 0rem 0rem 0rem;
+    padding: 0.6rem 0.5rem 0.6rem 1rem;
+    justify-content:space-between;
+    border-top: 1px solid gainsboro;
+}
+.imgBar span{
+    padding-left: 0.3rem;
+}
+
+
+
+@media(min-width:1024) and (max-width:1600px){
+    #setComntImg1{
+        padding: 0rem;
+        text-align: center;
+        width: 20%;
+    }
+    #setInutCommen1{
+        width: 80%;
+    }
+   
+}
+
+@media(min-width:992) and (max-width:1024px){
+   
+}
+
+@media(min-width:768px) and (max-width:912px){
+    #setComntImg1{
+        padding: 0rem;
+        text-align: center;
+        width: 20%;
+    }
+    #setInutCommen1{
+        width: 80%;
+    }
+    #setInutCommen1 input{
+        width: 65% !important;
+    }
+    #setInutCommen1 button{
+        padding: 0.1rem 1rem;
+        background-color: black;
+        color: white;
+        margin-left: 0.5rem;
+    }
+    .bodyimg img{
+        width: 100%;
+        height: 25vh;
+        border-radius: 0.5rem !important;
+    }
+    
+}
+
+@media(min-width:280px) and (max-width:540px){
+    .imgBar{
+        /* font-size: 0.4rem; */
+        background-color: aqua;
+        display: flex;
+        margin: 1.5rem 0rem 0rem 0rem;
+        padding: 0.6rem 0.7rem;
+    }   
+    .imgBar span{
+        display: none;
+        font-size: 0.8rem;
+    }
+}

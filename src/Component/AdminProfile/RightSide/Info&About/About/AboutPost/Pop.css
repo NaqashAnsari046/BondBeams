@@ -1,0 +1,12 @@
+.SetWriteBTN{
+    border: none;
+    background-color: white;
+}
+
+
+
+
+
+#message-texts{
+    min-height: 30vh;
+}
